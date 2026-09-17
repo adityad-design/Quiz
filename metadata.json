@@ -1,0 +1,6 @@
+{
+  "name": "QuizRush",
+  "description": "Kids & Adults offline quiz game with 350+ questions, lives, timers, streaks, achievements, and AdMob monetization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

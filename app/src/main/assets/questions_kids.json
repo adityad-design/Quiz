@@ -1,0 +1,2672 @@
+[
+  {
+    "id": "k_easy_001",
+    "text": "What is 5 + 3?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "8",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "5 + 3 = 8."
+  },
+  {
+    "id": "k_easy_002",
+    "text": "What is 10 - 4?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "6",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "10 - 4 = 6."
+  },
+  {
+    "id": "k_easy_003",
+    "text": "What number comes after 19?",
+    "options": [
+      "18",
+      "20",
+      "21",
+      "22"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "20",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "20 comes directly after 19."
+  },
+  {
+    "id": "k_easy_004",
+    "text": "What is 2 x 4?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "8",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "2 times 4 equals 8."
+  },
+  {
+    "id": "k_easy_005",
+    "text": "Which number is the smallest?",
+    "options": [
+      "12",
+      "5",
+      "8",
+      "19"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "5",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "5 is smaller than 8, 12, and 19."
+  },
+  {
+    "id": "k_easy_006",
+    "text": "What is half of 10?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "5",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "Half of 10 is 5 because 5 + 5 = 10."
+  },
+  {
+    "id": "k_easy_007",
+    "text": "What is 7 + 0?",
+    "options": [
+      "0",
+      "7",
+      "70",
+      "1"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "7",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "Adding 0 to any number leaves it unchanged."
+  },
+  {
+    "id": "k_easy_008",
+    "text": "How many legs do 2 cats have in total?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "8",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "Each cat has 4 legs, so 2 cats have 4 + 4 = 8 legs."
+  },
+  {
+    "id": "k_easy_009",
+    "text": "How many sides does a triangle have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "3",
+    "category": "Shapes & Colors",
+    "difficulty": "Easy",
+    "explanation": "A triangle always has 3 sides."
+  },
+  {
+    "id": "k_easy_010",
+    "text": "What color do you get by mixing Red and Yellow?",
+    "options": [
+      "Orange",
+      "Green",
+      "Purple",
+      "Blue"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Orange",
+    "category": "Shapes & Colors",
+    "difficulty": "Easy",
+    "explanation": "Red and yellow mix together to make orange."
+  },
+  {
+    "id": "k_easy_011",
+    "text": "What shape is a standard soccer ball?",
+    "options": [
+      "Cube",
+      "Sphere",
+      "Cylinder",
+      "Pyramid"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Sphere",
+    "category": "Shapes & Colors",
+    "difficulty": "Easy",
+    "explanation": "A ball is shaped like a sphere (3D circle)."
+  },
+  {
+    "id": "k_easy_012",
+    "text": "How many corners does a square have?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "4",
+    "category": "Shapes & Colors",
+    "difficulty": "Easy",
+    "explanation": "A square has 4 equal corners and 4 equal sides."
+  },
+  {
+    "id": "k_easy_013",
+    "text": "What color is an emerald?",
+    "options": [
+      "Red",
+      "Blue",
+      "Green",
+      "Yellow"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Green",
+    "category": "Shapes & Colors",
+    "difficulty": "Easy",
+    "explanation": "Emeralds are famous precious stones that are green."
+  },
+  {
+    "id": "k_easy_014",
+    "text": "How many colors are in a rainbow?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "7",
+    "category": "Shapes & Colors",
+    "difficulty": "Easy",
+    "explanation": "A rainbow has 7 colors: VIBGYOR."
+  },
+  {
+    "id": "k_easy_015",
+    "text": "What shape is a book or a door typically?",
+    "options": [
+      "Circle",
+      "Triangle",
+      "Rectangle",
+      "Hexagon"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Rectangle",
+    "category": "Shapes & Colors",
+    "difficulty": "Easy",
+    "explanation": "Books and standard doors have a rectangular shape."
+  },
+  {
+    "id": "k_easy_016",
+    "text": "Which animal is known as the King of the Jungle?",
+    "options": [
+      "Tiger",
+      "Lion",
+      "Elephant",
+      "Cheetah"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Lion",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "The lion is traditionally called the King of the Jungle."
+  },
+  {
+    "id": "k_easy_017",
+    "text": "What is a baby dog called?",
+    "options": [
+      "Kitten",
+      "Puppy",
+      "Cub",
+      "Calf"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Puppy",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "A baby dog is called a puppy."
+  },
+  {
+    "id": "k_easy_018",
+    "text": "Which bird cannot fly but is an excellent swimmer?",
+    "options": [
+      "Parrot",
+      "Eagle",
+      "Penguin",
+      "Sparrow"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Penguin",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "Penguins cannot fly in the air, but they swim gracefully."
+  },
+  {
+    "id": "k_easy_019",
+    "text": "How many legs does a spider have?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "8",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "Spiders are arachnids and have 8 legs."
+  },
+  {
+    "id": "k_easy_020",
+    "text": "Which is the largest land animal in the world?",
+    "options": [
+      "Hippopotamus",
+      "African Elephant",
+      "Rhinoceros",
+      "Giraffe"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "African Elephant",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "The African bush elephant is the largest living land animal."
+  },
+  {
+    "id": "k_easy_021",
+    "text": "What do bees make?",
+    "options": [
+      "Milk",
+      "Honey",
+      "Cotton",
+      "Silk"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Honey",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "Bees collect flower nectar to produce sweet honey."
+  },
+  {
+    "id": "k_easy_022",
+    "text": "What is a baby cat called?",
+    "options": [
+      "Puppy",
+      "Kitten",
+      "Foal",
+      "Joey"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Kitten",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "A baby cat is called a kitten."
+  },
+  {
+    "id": "k_easy_023",
+    "text": "Which animal has black and white stripes?",
+    "options": [
+      "Zebra",
+      "Leopard",
+      "Panda",
+      "Cheetah"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Zebra",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "Zebras are famous for their black and white striped coats."
+  },
+  {
+    "id": "k_easy_024",
+    "text": "What is the capital of India?",
+    "options": [
+      "Mumbai",
+      "New Delhi",
+      "Kolkata",
+      "Bengaluru"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "New Delhi",
+    "category": "Countries & Capitals",
+    "difficulty": "Easy",
+    "explanation": "New Delhi is the official capital city of India."
+  },
+  {
+    "id": "k_easy_025",
+    "text": "Which country is famous for the Eiffel Tower?",
+    "options": [
+      "Germany",
+      "Italy",
+      "France",
+      "Spain"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "France",
+    "category": "Countries & Capitals",
+    "difficulty": "Easy",
+    "explanation": "The Eiffel Tower is located in Paris, France."
+  },
+  {
+    "id": "k_easy_026",
+    "text": "What is the capital of the United Kingdom?",
+    "options": [
+      "Paris",
+      "London",
+      "Dublin",
+      "Rome"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "London",
+    "category": "Countries & Capitals",
+    "difficulty": "Easy",
+    "explanation": "London is the capital of the United Kingdom."
+  },
+  {
+    "id": "k_easy_027",
+    "text": "Which country has the Pyramids of Giza?",
+    "options": [
+      "Egypt",
+      "Brazil",
+      "India",
+      "Greece"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Egypt",
+    "category": "Countries & Capitals",
+    "difficulty": "Easy",
+    "explanation": "The Great Pyramids are located in Giza, Egypt."
+  },
+  {
+    "id": "k_easy_028",
+    "text": "What is the national animal of India?",
+    "options": [
+      "Lion",
+      "Elephant",
+      "Royal Bengal Tiger",
+      "Peacock"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Royal Bengal Tiger",
+    "category": "Countries & Capitals",
+    "difficulty": "Easy",
+    "explanation": "The Royal Bengal Tiger is India's national animal."
+  },
+  {
+    "id": "k_easy_029",
+    "text": "What is the national bird of India?",
+    "options": [
+      "Parrot",
+      "Indian Peacock",
+      "Sparrow",
+      "Pigeon"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Indian Peacock",
+    "category": "Countries & Capitals",
+    "difficulty": "Easy",
+    "explanation": "The Indian Peacock (Pavo cristatus) is the national bird."
+  },
+  {
+    "id": "k_easy_030",
+    "text": "What is the capital of Maharashtra?",
+    "options": [
+      "Pune",
+      "Nagpur",
+      "Mumbai",
+      "Nashik"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Mumbai",
+    "category": "Indian States",
+    "difficulty": "Easy",
+    "explanation": "Mumbai is the financial capital and state capital of Maharashtra."
+  },
+  {
+    "id": "k_easy_031",
+    "text": "What is the capital of Tamil Nadu?",
+    "options": [
+      "Madurai",
+      "Chennai",
+      "Coimbatore",
+      "Salem"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Chennai",
+    "category": "Indian States",
+    "difficulty": "Easy",
+    "explanation": "Chennai (formerly Madras) is the capital of Tamil Nadu."
+  },
+  {
+    "id": "k_easy_032",
+    "text": "What is the capital of Karnataka?",
+    "options": [
+      "Mysuru",
+      "Bengaluru",
+      "Hubli",
+      "Mangaluru"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Bengaluru",
+    "category": "Indian States",
+    "difficulty": "Easy",
+    "explanation": "Bengaluru (Bangalore) is the capital of Karnataka."
+  },
+  {
+    "id": "k_easy_033",
+    "text": "What is the capital of West Bengal?",
+    "options": [
+      "Kolkata",
+      "Siliguri",
+      "Darjeeling",
+      "Asansol"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Kolkata",
+    "category": "Indian States",
+    "difficulty": "Easy",
+    "explanation": "Kolkata is the capital city of West Bengal."
+  },
+  {
+    "id": "k_easy_034",
+    "text": "What is the capital of Rajasthan?",
+    "options": [
+      "Udaipur",
+      "Jodhpur",
+      "Jaipur",
+      "Bikaner"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Jaipur",
+    "category": "Indian States",
+    "difficulty": "Easy",
+    "explanation": "Jaipur, known as the Pink City, is the capital of Rajasthan."
+  },
+  {
+    "id": "k_easy_035",
+    "text": "Which planet do we live on?",
+    "options": [
+      "Mars",
+      "Venus",
+      "Earth",
+      "Jupiter"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Earth",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "We live on planet Earth, the third planet from the Sun."
+  },
+  {
+    "id": "k_easy_036",
+    "text": "What shines brightly in the sky during the day?",
+    "options": [
+      "Moon",
+      "Sun",
+      "Mars",
+      "North Star"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Sun",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "The Sun is the star that lights up our daytime."
+  },
+  {
+    "id": "k_easy_037",
+    "text": "What do humans breathe in to stay alive?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "Helium",
+      "Nitrogen only"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Oxygen",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "Humans need oxygen from the air to breathe and live."
+  },
+  {
+    "id": "k_easy_038",
+    "text": "What happens to water when it freezes?",
+    "options": [
+      "Turns to steam",
+      "Turns into ice",
+      "Disappears",
+      "Catches fire"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Turns into ice",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "When water freezes below 0°C, it becomes solid ice."
+  },
+  {
+    "id": "k_easy_039",
+    "text": "How many days are there in a standard year?",
+    "options": [
+      "350",
+      "365",
+      "370",
+      "360"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "365",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "A standard calendar year has 365 days (leap year has 366)."
+  },
+  {
+    "id": "k_easy_040",
+    "text": "Which part of a plant grows under the ground?",
+    "options": [
+      "Flower",
+      "Leaf",
+      "Root",
+      "Stem"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Root",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "Roots grow underground to absorb water and minerals."
+  },
+  {
+    "id": "k_easy_041",
+    "text": "What is the boiling point of pure water?",
+    "options": [
+      "50°C",
+      "100°C",
+      "150°C",
+      "200°C"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "100°C",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "Water boils at 100 degrees Celsius at sea level."
+  },
+  {
+    "id": "k_easy_042",
+    "text": "How many teeth does an adult human typically have?",
+    "options": [
+      "20",
+      "28",
+      "32",
+      "36"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "32",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "A full set of adult human permanent teeth contains 32 teeth."
+  },
+  {
+    "id": "k_easy_043",
+    "text": "Where is the Taj Mahal located?",
+    "options": [
+      "Delhi",
+      "Agra",
+      "Jaipur",
+      "Varanasi"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Agra",
+    "category": "Landmarks",
+    "difficulty": "Easy",
+    "explanation": "The Taj Mahal is located in Agra on the banks of the Yamuna River."
+  },
+  {
+    "id": "k_easy_044",
+    "text": "Which is the tallest animal in the world?",
+    "options": [
+      "Elephant",
+      "Giraffe",
+      "Camel",
+      "Ostrich"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Giraffe",
+    "category": "World GK",
+    "difficulty": "Easy",
+    "explanation": "Giraffes are the tallest living mammals in the world."
+  },
+  {
+    "id": "k_easy_045",
+    "text": "How many continents are there on Earth?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "7",
+    "category": "World GK",
+    "difficulty": "Easy",
+    "explanation": "Earth has 7 continents: Asia, Africa, North America, South America, Antarctica, Europe, Australia."
+  },
+  {
+    "id": "k_easy_046",
+    "text": "Which is the largest ocean on Earth?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Pacific Ocean",
+    "category": "World GK",
+    "difficulty": "Easy",
+    "explanation": "The Pacific Ocean is the largest and deepest ocean on Earth."
+  },
+  {
+    "id": "k_easy_047",
+    "text": "What is the color of an apple usually?",
+    "options": [
+      "Red",
+      "Purple",
+      "Blue",
+      "Black"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Red",
+    "category": "Shapes & Colors",
+    "difficulty": "Easy",
+    "explanation": "Apples are most commonly red or green."
+  },
+  {
+    "id": "k_easy_048",
+    "text": "How many hours are there in one whole day?",
+    "options": [
+      "12",
+      "20",
+      "24",
+      "48"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "24",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "One complete day and night cycle is 24 hours."
+  },
+  {
+    "id": "k_easy_049",
+    "text": "Which sense organ do we use to smell things?",
+    "options": [
+      "Eyes",
+      "Ears",
+      "Nose",
+      "Tongue"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Nose",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "We use our nose to detect scents and smells."
+  },
+  {
+    "id": "k_easy_050",
+    "text": "What do caterpillars turn into?",
+    "options": [
+      "Bees",
+      "Butterflies",
+      "Frogs",
+      "Spiders"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Butterflies",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "A caterpillar undergoes metamorphosis to become a butterfly."
+  },
+  {
+    "id": "k_easy_051",
+    "text": "What is 6 + 6?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "12",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "6 + 6 equals 12."
+  },
+  {
+    "id": "k_easy_052",
+    "text": "What is 15 - 5?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "10",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "15 minus 5 is 10."
+  },
+  {
+    "id": "k_easy_053",
+    "text": "How many fingers are on two human hands?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "10",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "Each hand has 5 fingers, so two hands have 10 fingers."
+  },
+  {
+    "id": "k_easy_054",
+    "text": "What is the capital of Goa?",
+    "options": [
+      "Margao",
+      "Panaji",
+      "Vasco da Gama",
+      "Mapusa"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Panaji",
+    "category": "Indian States",
+    "difficulty": "Easy",
+    "explanation": "Panaji is the capital city of Goa."
+  },
+  {
+    "id": "k_easy_055",
+    "text": "What is the capital of Gujarat?",
+    "options": [
+      "Ahmedabad",
+      "Surat",
+      "Gandhinagar",
+      "Vadodara"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Gandhinagar",
+    "category": "Indian States",
+    "difficulty": "Easy",
+    "explanation": "Gandhinagar is the capital city of Gujarat."
+  },
+  {
+    "id": "k_easy_056",
+    "text": "Which fruit is known as the King of Fruits in India?",
+    "options": [
+      "Apple",
+      "Mango",
+      "Banana",
+      "Orange"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Mango",
+    "category": "World GK",
+    "difficulty": "Easy",
+    "explanation": "Mango is lovingly known as the King of Fruits in India."
+  },
+  {
+    "id": "k_easy_057",
+    "text": "What is the main color of the Sun?",
+    "options": [
+      "Green",
+      "Yellow",
+      "Blue",
+      "Violet"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Yellow",
+    "category": "Shapes & Colors",
+    "difficulty": "Easy",
+    "explanation": "The Sun appears yellow-white from Earth's surface."
+  },
+  {
+    "id": "k_easy_058",
+    "text": "Which animal gives us wool for warm clothes?",
+    "options": [
+      "Cow",
+      "Sheep",
+      "Horse",
+      "Dog"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Sheep",
+    "category": "Animals & Birds",
+    "difficulty": "Easy",
+    "explanation": "Sheep provide wool which is spun into warm clothes."
+  },
+  {
+    "id": "k_easy_059",
+    "text": "How many days are in a week?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "7",
+    "category": "Basic Math",
+    "difficulty": "Easy",
+    "explanation": "There are 7 days from Monday through Sunday."
+  },
+  {
+    "id": "k_easy_060",
+    "text": "What is the closest star to Earth?",
+    "options": [
+      "Alpha Centauri",
+      "Polaris",
+      "The Sun",
+      "Sirius"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "The Sun",
+    "category": "Simple Science",
+    "difficulty": "Easy",
+    "explanation": "The Sun is our closest star, located 150 million km away."
+  },
+  {
+    "id": "k_med_001",
+    "text": "What is 12 x 3?",
+    "options": [
+      "32",
+      "36",
+      "38",
+      "40"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "36",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "12 x 3 = 36."
+  },
+  {
+    "id": "k_med_002",
+    "text": "What is 45 divided by 5?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "9",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "45 / 5 = 9."
+  },
+  {
+    "id": "k_med_003",
+    "text": "What is the next number in pattern: 3, 6, 9, 12, __?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "18"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "15",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "The pattern adds 3 each time: 12 + 3 = 15."
+  },
+  {
+    "id": "k_med_004",
+    "text": "How many minutes are in 2 hours?",
+    "options": [
+      "60",
+      "100",
+      "120",
+      "150"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "120",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "Each hour has 60 minutes, so 2 hours have 120 minutes."
+  },
+  {
+    "id": "k_med_005",
+    "text": "What is 100 - 35?",
+    "options": [
+      "55",
+      "65",
+      "70",
+      "75"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "65",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "100 - 35 = 65."
+  },
+  {
+    "id": "k_med_006",
+    "text": "How many tens are there in the number 80?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "8",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "80 contains exactly 8 tens."
+  },
+  {
+    "id": "k_med_007",
+    "text": "What is 7 x 8?",
+    "options": [
+      "54",
+      "56",
+      "58",
+      "64"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "56",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "7 multiplied by 8 is 56."
+  },
+  {
+    "id": "k_med_008",
+    "text": "If you have 3 quarters, how many cents do you have?",
+    "options": [
+      "50",
+      "75",
+      "100",
+      "25"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "75",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "Each quarter is 25 cents, so 3 quarters equal 75 cents."
+  },
+  {
+    "id": "k_med_009",
+    "text": "How many sides does a pentagon have?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "5",
+    "category": "Shapes & Colors",
+    "difficulty": "Medium",
+    "explanation": "A pentagon is a polygon with 5 sides."
+  },
+  {
+    "id": "k_med_010",
+    "text": "How many sides does a hexagon have?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "6",
+    "category": "Shapes & Colors",
+    "difficulty": "Medium",
+    "explanation": "A hexagon has 6 straight sides."
+  },
+  {
+    "id": "k_med_011",
+    "text": "What is the perimeter of a square with side length 4 cm?",
+    "options": [
+      "12 cm",
+      "14 cm",
+      "16 cm",
+      "20 cm"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "16 cm",
+    "category": "Shapes & Colors",
+    "difficulty": "Medium",
+    "explanation": "Perimeter of a square = 4 x side = 4 x 4 = 16 cm."
+  },
+  {
+    "id": "k_med_012",
+    "text": "How many faces does a cube have?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "6",
+    "category": "Shapes & Colors",
+    "difficulty": "Medium",
+    "explanation": "A standard cube has 6 square faces."
+  },
+  {
+    "id": "k_med_013",
+    "text": "Which 3D shape looks like an Egyptian pyramid?",
+    "options": [
+      "Cone",
+      "Square Pyramid",
+      "Prism",
+      "Cylinder"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Square Pyramid",
+    "category": "Shapes & Colors",
+    "difficulty": "Medium",
+    "explanation": "The Egyptian pyramids are square-based pyramids."
+  },
+  {
+    "id": "k_med_014",
+    "text": "What is a group of lions called?",
+    "options": [
+      "Pack",
+      "Herd",
+      "Pride",
+      "Flock"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Pride",
+    "category": "Animals & Birds",
+    "difficulty": "Medium",
+    "explanation": "A family group of lions is called a pride."
+  },
+  {
+    "id": "k_med_015",
+    "text": "Which mammal is capable of true sustained flight?",
+    "options": [
+      "Flying squirrel",
+      "Bat",
+      "Sugar glider",
+      "Flying fish"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Bat",
+    "category": "Animals & Birds",
+    "difficulty": "Medium",
+    "explanation": "Bats are the only mammals capable of true flight."
+  },
+  {
+    "id": "k_med_016",
+    "text": "What is a baby kangaroo called?",
+    "options": [
+      "Joey",
+      "Cub",
+      "Fawn",
+      "Pup"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Joey",
+    "category": "Animals & Birds",
+    "difficulty": "Medium",
+    "explanation": "A baby kangaroo is called a joey and stays in mom's pouch."
+  },
+  {
+    "id": "k_med_017",
+    "text": "Which bird lays the largest eggs in the world?",
+    "options": [
+      "Eagle",
+      "Albatross",
+      "Ostrich",
+      "Emu"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Ostrich",
+    "category": "Animals & Birds",
+    "difficulty": "Medium",
+    "explanation": "The ostrich lays the largest eggs of any living bird."
+  },
+  {
+    "id": "k_med_018",
+    "text": "Which sea creature has three hearts and blue blood?",
+    "options": [
+      "Shark",
+      "Whale",
+      "Octopus",
+      "Dolphin"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Octopus",
+    "category": "Animals & Birds",
+    "difficulty": "Medium",
+    "explanation": "An octopus has three hearts and copper-based blue blood."
+  },
+  {
+    "id": "k_med_019",
+    "text": "Which animal is known as the Ship of the Desert?",
+    "options": [
+      "Horse",
+      "Camel",
+      "Donkey",
+      "Yak"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Camel",
+    "category": "Animals & Birds",
+    "difficulty": "Medium",
+    "explanation": "Camels are called Ships of the Desert for navigating dunes."
+  },
+  {
+    "id": "k_med_020",
+    "text": "What type of animal is a frog?",
+    "options": [
+      "Reptile",
+      "Amphibian",
+      "Mammal",
+      "Insect"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Amphibian",
+    "category": "Animals & Birds",
+    "difficulty": "Medium",
+    "explanation": "Frogs live both in water and on land, making them amphibians."
+  },
+  {
+    "id": "k_med_021",
+    "text": "What is the capital of Japan?",
+    "options": [
+      "Seoul",
+      "Beijing",
+      "Tokyo",
+      "Bangkok"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Tokyo",
+    "category": "Countries & Capitals",
+    "difficulty": "Medium",
+    "explanation": "Tokyo is the bustling capital city of Japan."
+  },
+  {
+    "id": "k_med_022",
+    "text": "What is the capital of Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Brisbane"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Canberra",
+    "category": "Countries & Capitals",
+    "difficulty": "Medium",
+    "explanation": "Canberra is the purpose-built capital city of Australia."
+  },
+  {
+    "id": "k_med_023",
+    "text": "What is the capital of Canada?",
+    "options": [
+      "Toronto",
+      "Vancouver",
+      "Ottawa",
+      "Montreal"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Ottawa",
+    "category": "Countries & Capitals",
+    "difficulty": "Medium",
+    "explanation": "Ottawa is the national capital of Canada."
+  },
+  {
+    "id": "k_med_024",
+    "text": "Which country has the flag with a red maple leaf?",
+    "options": [
+      "Canada",
+      "USA",
+      "Mexico",
+      "Switzerland"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Canada",
+    "category": "Countries & Capitals",
+    "difficulty": "Medium",
+    "explanation": "The Canadian flag features a distinctive red maple leaf."
+  },
+  {
+    "id": "k_med_025",
+    "text": "Which country is shaped like a boot on world maps?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Portugal",
+      "Norway"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Italy",
+    "category": "Countries & Capitals",
+    "difficulty": "Medium",
+    "explanation": "Italy's peninsula has a famous boot-like outline."
+  },
+  {
+    "id": "k_med_026",
+    "text": "What is the capital of Kerala?",
+    "options": [
+      "Kochi",
+      "Thiruvananthapuram",
+      "Kozhikode",
+      "Thrissur"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Thiruvananthapuram",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Thiruvananthapuram is the capital city of Kerala."
+  },
+  {
+    "id": "k_med_027",
+    "text": "What is the capital of Punjab and Haryana both?",
+    "options": [
+      "Amritsar",
+      "Chandigarh",
+      "Ludhiana",
+      "Gurugram"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Chandigarh",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Chandigarh serves as the joint capital of both Punjab and Haryana."
+  },
+  {
+    "id": "k_med_028",
+    "text": "What is the capital of Odisha?",
+    "options": [
+      "Cuttack",
+      "Bhubaneswar",
+      "Puri",
+      "Rourkela"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Bhubaneswar",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Bhubaneswar, the Temple City, is the capital of Odisha."
+  },
+  {
+    "id": "k_med_029",
+    "text": "What is the capital of Assam?",
+    "options": [
+      "Guwahati",
+      "Dispur",
+      "Silchar",
+      "Tezpur"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Dispur",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Dispur is the official capital city of Assam."
+  },
+  {
+    "id": "k_med_030",
+    "text": "What is the capital of Telangana?",
+    "options": [
+      "Hyderabad",
+      "Warangal",
+      "Nizamabad",
+      "Karimnagar"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Hyderabad",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Hyderabad is the capital city of Telangana."
+  },
+  {
+    "id": "k_med_031",
+    "text": "What is the capital of Madhya Pradesh?",
+    "options": [
+      "Indore",
+      "Bhopal",
+      "Gwalior",
+      "Jabalpur"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Bhopal",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Bhopal, the City of Lakes, is the capital of Madhya Pradesh."
+  },
+  {
+    "id": "k_med_032",
+    "text": "What is the capital of Bihar?",
+    "options": [
+      "Gaya",
+      "Patna",
+      "Muzaffarpur",
+      "Bhagalpur"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Patna",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Patna, situated along the Ganges, is the capital of Bihar."
+  },
+  {
+    "id": "k_med_033",
+    "text": "Which planet is known as the Red Planet?",
+    "options": [
+      "Venus",
+      "Mars",
+      "Jupiter",
+      "Saturn"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Mars",
+    "category": "Simple Science",
+    "difficulty": "Medium",
+    "explanation": "Mars looks reddish due to abundant iron oxide on its surface."
+  },
+  {
+    "id": "k_med_034",
+    "text": "What gas do green plants absorb from the air during photosynthesis?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Helium",
+      "Nitrogen"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Carbon dioxide",
+    "category": "Simple Science",
+    "difficulty": "Medium",
+    "explanation": "Plants take in carbon dioxide and release oxygen."
+  },
+  {
+    "id": "k_med_035",
+    "text": "What is the hardest natural substance on Earth?",
+    "options": [
+      "Gold",
+      "Iron",
+      "Diamond",
+      "Quartz"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Diamond",
+    "category": "Simple Science",
+    "difficulty": "Medium",
+    "explanation": "Diamond is the hardest naturally occurring mineral."
+  },
+  {
+    "id": "k_med_036",
+    "text": "Which planet has prominent visible rings around it?",
+    "options": [
+      "Uranus",
+      "Neptune",
+      "Saturn",
+      "Jupiter"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Saturn",
+    "category": "Simple Science",
+    "difficulty": "Medium",
+    "explanation": "Saturn is famous for its bright, wide system of icy rings."
+  },
+  {
+    "id": "k_med_037",
+    "text": "How many bones are in the adult human body?",
+    "options": [
+      "186",
+      "206",
+      "226",
+      "256"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "206",
+    "category": "Simple Science",
+    "difficulty": "Medium",
+    "explanation": "An adult human skeleton consists of 206 bones."
+  },
+  {
+    "id": "k_med_038",
+    "text": "What is the center of an atom called?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Nucleus",
+      "Neutron"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Nucleus",
+    "category": "Simple Science",
+    "difficulty": "Medium",
+    "explanation": "The dense center of an atom is called the nucleus."
+  },
+  {
+    "id": "k_med_039",
+    "text": "What protects Earth from harmful solar radiation?",
+    "options": [
+      "Ozone Layer",
+      "Clouds",
+      "Ocean water",
+      "Mountains"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Ozone Layer",
+    "category": "Simple Science",
+    "difficulty": "Medium",
+    "explanation": "The ozone layer in the stratosphere filters ultraviolet rays."
+  },
+  {
+    "id": "k_med_040",
+    "text": "Which is the longest river in the world?",
+    "options": [
+      "Amazon",
+      "Nile",
+      "Yangtze",
+      "Mississippi"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Nile",
+    "category": "World GK",
+    "difficulty": "Medium",
+    "explanation": "The Nile River in Africa is traditionally recognized as the longest."
+  },
+  {
+    "id": "k_med_041",
+    "text": "Which is the highest mountain peak in the world?",
+    "options": [
+      "K2",
+      "Mount Everest",
+      "Kangchenjunga",
+      "Lhotse"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Mount Everest",
+    "category": "World GK",
+    "difficulty": "Medium",
+    "explanation": "Mount Everest in the Himalayas stands at 8,848.86 meters."
+  },
+  {
+    "id": "k_med_042",
+    "text": "Which continent is known as the 'Dark Continent' historically?",
+    "options": [
+      "Asia",
+      "Africa",
+      "South America",
+      "Europe"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Africa",
+    "category": "World GK",
+    "difficulty": "Medium",
+    "explanation": "Africa was historically referred to by Europeans as the Dark Continent."
+  },
+  {
+    "id": "k_med_043",
+    "text": "In which country would you find the Colosseum?",
+    "options": [
+      "Greece",
+      "Italy",
+      "Turkey",
+      "Egypt"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Italy",
+    "category": "Landmarks",
+    "difficulty": "Medium",
+    "explanation": "The Colosseum is an ancient amphitheater located in Rome, Italy."
+  },
+  {
+    "id": "k_med_044",
+    "text": "Where is the Great Barrier Reef located?",
+    "options": [
+      "South Africa",
+      "Australia",
+      "Brazil",
+      "Indonesia"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Australia",
+    "category": "Landmarks",
+    "difficulty": "Medium",
+    "explanation": "The Great Barrier Reef is off the northeast coast of Australia."
+  },
+  {
+    "id": "k_med_045",
+    "text": "Which Indian city is known as the 'Pink City'?",
+    "options": [
+      "Udaipur",
+      "Jaipur",
+      "Jodhpur",
+      "Bhopal"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Jaipur",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Jaipur was painted terracotta pink in 1876 to welcome Prince Albert."
+  },
+  {
+    "id": "k_med_046",
+    "text": "Which Indian state has the longest coastline?",
+    "options": [
+      "Maharashtra",
+      "Gujarat",
+      "Tamil Nadu",
+      "Andhra Pradesh"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Gujarat",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Gujarat has the longest mainland coastline in India (~1,600 km)."
+  },
+  {
+    "id": "k_med_047",
+    "text": "Who was the first person to walk on the Moon?",
+    "options": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Yuri Gagarin",
+      "Michael Collins"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Neil Armstrong",
+    "category": "World GK",
+    "difficulty": "Medium",
+    "explanation": "Neil Armstrong stepped onto the Moon during Apollo 11 in 1969."
+  },
+  {
+    "id": "k_med_048",
+    "text": "What is the currency of the United States?",
+    "options": [
+      "Pound",
+      "Euro",
+      "Dollar",
+      "Yen"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Dollar",
+    "category": "Countries & Capitals",
+    "difficulty": "Medium",
+    "explanation": "The United States uses the US Dollar ($)."
+  },
+  {
+    "id": "k_med_049",
+    "text": "What is the currency of Japan?",
+    "options": [
+      "Yuan",
+      "Won",
+      "Yen",
+      "Rupee"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Yen",
+    "category": "Countries & Capitals",
+    "difficulty": "Medium",
+    "explanation": "The national currency of Japan is the Japanese Yen (¥)."
+  },
+  {
+    "id": "k_med_050",
+    "text": "What is the national flower of India?",
+    "options": [
+      "Rose",
+      "Lotus",
+      "Marigold",
+      "Jasmine"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Lotus",
+    "category": "World GK",
+    "difficulty": "Medium",
+    "explanation": "The sacred Lotus (Nelumbo nucifera) is India's national flower."
+  },
+  {
+    "id": "k_med_051",
+    "text": "What instrument is used to measure temperature?",
+    "options": [
+      "Barometer",
+      "Thermometer",
+      "Speedometer",
+      "Altimeter"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Thermometer",
+    "category": "Simple Science",
+    "difficulty": "Medium",
+    "explanation": "A thermometer measures temperature in Celsius, Fahrenheit, or Kelvin."
+  },
+  {
+    "id": "k_med_052",
+    "text": "What do we call animals that eat only plants?",
+    "options": [
+      "Carnivores",
+      "Herbivores",
+      "Omnivores",
+      "Insectivores"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Herbivores",
+    "category": "Animals & Birds",
+    "difficulty": "Medium",
+    "explanation": "Herbivores feed exclusively on plants and vegetation."
+  },
+  {
+    "id": "k_med_053",
+    "text": "What do we call animals that eat both plants and meat?",
+    "options": [
+      "Carnivores",
+      "Herbivores",
+      "Omnivores",
+      "Decomposers"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Omnivores",
+    "category": "Animals & Birds",
+    "difficulty": "Medium",
+    "explanation": "Omnivores eat a balanced diet of plant and animal matter."
+  },
+  {
+    "id": "k_med_054",
+    "text": "What is the freezing point of water?",
+    "options": [
+      "0°C",
+      "10°C",
+      "32°C",
+      "-5°C"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "0°C",
+    "category": "Simple Science",
+    "difficulty": "Medium",
+    "explanation": "Water freezes into ice at 0 degrees Celsius (32°F)."
+  },
+  {
+    "id": "k_med_055",
+    "text": "Which continent has the fewest permanent human residents?",
+    "options": [
+      "Australia",
+      "Antarctica",
+      "Europe",
+      "South America"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Antarctica",
+    "category": "World GK",
+    "difficulty": "Medium",
+    "explanation": "Antarctica has no native human population, only scientists."
+  },
+  {
+    "id": "k_med_056",
+    "text": "What is the capital of Himachal Pradesh?",
+    "options": [
+      "Dharamshala",
+      "Shimla",
+      "Manali",
+      "Kullu"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Shimla",
+    "category": "Indian States",
+    "difficulty": "Medium",
+    "explanation": "Shimla is the principal capital of Himachal Pradesh."
+  },
+  {
+    "id": "k_med_057",
+    "text": "What is 9 x 9?",
+    "options": [
+      "72",
+      "81",
+      "88",
+      "90"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "81",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "9 multiplied by 9 is 81."
+  },
+  {
+    "id": "k_med_058",
+    "text": "What is 75 + 25?",
+    "options": [
+      "90",
+      "95",
+      "100",
+      "110"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "100",
+    "category": "Basic Math",
+    "difficulty": "Medium",
+    "explanation": "75 + 25 equals 100."
+  },
+  {
+    "id": "k_med_059",
+    "text": "How many sides does an octagon have?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "8",
+    "category": "Shapes & Colors",
+    "difficulty": "Medium",
+    "explanation": "An octagon is a polygon with 8 sides (like a stop sign)."
+  },
+  {
+    "id": "k_hard_001",
+    "text": "What is 15 x 6?",
+    "options": [
+      "75",
+      "80",
+      "90",
+      "95"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "90",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "15 x 6 = 90."
+  },
+  {
+    "id": "k_hard_002",
+    "text": "What is the square root of 64?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "8",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "8 x 8 = 64, so the square root is 8."
+  },
+  {
+    "id": "k_hard_003",
+    "text": "What is the perimeter of a rectangle with length 7 cm and width 3 cm?",
+    "options": [
+      "10 cm",
+      "14 cm",
+      "20 cm",
+      "21 cm"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "20 cm",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "Perimeter = 2 x (7 + 3) = 2 x 10 = 20 cm."
+  },
+  {
+    "id": "k_hard_004",
+    "text": "What is the area of a square with side 6 cm?",
+    "options": [
+      "24 cm²",
+      "30 cm²",
+      "36 cm²",
+      "42 cm²"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "36 cm²",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "Area of a square = side x side = 6 x 6 = 36 cm²."
+  },
+  {
+    "id": "k_hard_005",
+    "text": "What is 144 divided by 12?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "12",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "144 / 12 = 12."
+  },
+  {
+    "id": "k_hard_006",
+    "text": "Which fraction is equivalent to 1/2?",
+    "options": [
+      "2/3",
+      "3/6",
+      "4/6",
+      "5/8"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "3/6",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "3/6 simplifies to 1/2 by dividing top and bottom by 3."
+  },
+  {
+    "id": "k_hard_007",
+    "text": "If a train leaves at 2:15 PM and arrives at 4:45 PM, how long was the trip?",
+    "options": [
+      "2 hours",
+      "2 hours 15 mins",
+      "2 hours 30 mins",
+      "2 hours 45 mins"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "2 hours 30 mins",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "From 2:15 to 4:45 is 2 hours and 30 minutes."
+  },
+  {
+    "id": "k_hard_008",
+    "text": "What is the Roman numeral for 50?",
+    "options": [
+      "X",
+      "L",
+      "C",
+      "D"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "L",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "L represents 50 in Roman numerals."
+  },
+  {
+    "id": "k_hard_009",
+    "text": "What part of the plant cell carries out photosynthesis?",
+    "options": [
+      "Mitochondria",
+      "Chloroplast",
+      "Nucleus",
+      "Ribosome"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Chloroplast",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Chloroplasts contain chlorophyll where photosynthesis takes place."
+  },
+  {
+    "id": "k_hard_010",
+    "text": "Which blood cells help fight infections and diseases in humans?",
+    "options": [
+      "Red blood cells",
+      "White blood cells",
+      "Platelets",
+      "Plasma"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "White blood cells",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "White blood cells are the body's primary immune defenders."
+  },
+  {
+    "id": "k_hard_011",
+    "text": "What is the largest organ of the human body?",
+    "options": [
+      "Liver",
+      "Brain",
+      "Skin",
+      "Lungs"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Skin",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "The skin is the body's largest organ by mass and surface area."
+  },
+  {
+    "id": "k_hard_012",
+    "text": "What is the name of our home galaxy?",
+    "options": [
+      "Andromeda",
+      "Milky Way",
+      "Whirlpool",
+      "Sombrero"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Milky Way",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Our solar system resides inside the spiral Milky Way galaxy."
+  },
+  {
+    "id": "k_hard_013",
+    "text": "What makes plant leaves look green?",
+    "options": [
+      "Carotene",
+      "Chlorophyll",
+      "Hemoglobin",
+      "Melanin"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Chlorophyll",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Chlorophyll pigment absorbs blue and red light, reflecting green."
+  },
+  {
+    "id": "k_hard_014",
+    "text": "Which layer of Earth is composed of molten rock under the crust?",
+    "options": [
+      "Inner Core",
+      "Mantle",
+      "Outer Core",
+      "Atmosphere"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Mantle",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "The mantle lies directly beneath Earth's crust."
+  },
+  {
+    "id": "k_hard_015",
+    "text": "Sound travels fastest through which medium?",
+    "options": [
+      "Air",
+      "Water",
+      "Solids (Steel)",
+      "Vacuum"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Solids (Steel)",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Molecules in solids are packed closely, transmitting sound fastest."
+  },
+  {
+    "id": "k_hard_016",
+    "text": "What causes ocean tides on Earth?",
+    "options": [
+      "Wind currents",
+      "Gravitational pull of Moon and Sun",
+      "Earthquakes",
+      "Underwater volcanoes"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Gravitational pull of Moon and Sun",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Tides are driven by the gravitational interaction with the Moon and Sun."
+  },
+  {
+    "id": "k_hard_017",
+    "text": "Which animal has the longest lifespan of any terrestrial animal?",
+    "options": [
+      "Elephant",
+      "Giant Tortoise",
+      "Blue Whale",
+      "Crocodile"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Giant Tortoise",
+    "category": "Animals & Birds",
+    "difficulty": "Hard",
+    "explanation": "Aldabra and Galapagos giant tortoises can live well past 150 years."
+  },
+  {
+    "id": "k_hard_018",
+    "text": "Which bird can fly backwards?",
+    "options": [
+      "Swallow",
+      "Hummingbird",
+      "Swift",
+      "Kingfisher"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Hummingbird",
+    "category": "Animals & Birds",
+    "difficulty": "Hard",
+    "explanation": "Hummingbirds have flexible shoulder joints allowing backward flight."
+  },
+  {
+    "id": "k_hard_019",
+    "text": "Which sea creature is known to be the fastest swimmer?",
+    "options": [
+      "Sailfish",
+      "Tuna",
+      "Great White Shark",
+      "Barracuda"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Sailfish",
+    "category": "Animals & Birds",
+    "difficulty": "Hard",
+    "explanation": "The sailfish can burst-swim at speeds up to 110 km/h (68 mph)."
+  },
+  {
+    "id": "k_hard_020",
+    "text": "What is the only continent where spiders and reptiles are completely absent?",
+    "options": [
+      "Australia",
+      "Antarctica",
+      "Arctic",
+      "Greenland"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Antarctica",
+    "category": "Animals & Birds",
+    "difficulty": "Hard",
+    "explanation": "Antarctica's extreme subzero conditions support no reptiles or spiders."
+  },
+  {
+    "id": "k_hard_021",
+    "text": "Which river is considered the most sacred river in India?",
+    "options": [
+      "Yamuna",
+      "Ganga (Ganges)",
+      "Godavari",
+      "Brahmaputra"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Ganga (Ganges)",
+    "category": "Indian States",
+    "difficulty": "Hard",
+    "explanation": "The Ganga is celebrated as India's most holy and iconic river."
+  },
+  {
+    "id": "k_hard_022",
+    "text": "What is the capital of Uttarakhand?",
+    "options": [
+      "Nainital",
+      "Haridwar",
+      "Dehradun",
+      "Rishikesh"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Dehradun",
+    "category": "Indian States",
+    "difficulty": "Hard",
+    "explanation": "Dehradun is the winter capital and largest city of Uttarakhand."
+  },
+  {
+    "id": "k_hard_023",
+    "text": "What is the capital of Sikkim?",
+    "options": [
+      "Gangtok",
+      "Namchi",
+      "Pelling",
+      "Gyalshing"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Gangtok",
+    "category": "Indian States",
+    "difficulty": "Hard",
+    "explanation": "Gangtok is the scenic capital city of Sikkim."
+  },
+  {
+    "id": "k_hard_024",
+    "text": "What is the capital of Arunachal Pradesh?",
+    "options": [
+      "Itanagar",
+      "Tawang",
+      "Pasighat",
+      "Ziro"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Itanagar",
+    "category": "Indian States",
+    "difficulty": "Hard",
+    "explanation": "Itanagar is the capital city of Arunachal Pradesh."
+  },
+  {
+    "id": "k_hard_025",
+    "text": "Which state in India is known as the 'Land of Five Rivers'?",
+    "options": [
+      "Haryana",
+      "Punjab",
+      "Uttar Pradesh",
+      "Gujarat"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Punjab",
+    "category": "Indian States",
+    "difficulty": "Hard",
+    "explanation": "Punjab gets its name from 'Punj' (five) and 'Aab' (waters/rivers)."
+  },
+  {
+    "id": "k_hard_026",
+    "text": "Which monument was built by Shah Jahan in memory of Mumtaz Mahal?",
+    "options": [
+      "Red Fort",
+      "Taj Mahal",
+      "Qutub Minar",
+      "Hawa Mahal"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Taj Mahal",
+    "category": "Landmarks",
+    "difficulty": "Hard",
+    "explanation": "The Taj Mahal was commissioned in 1632 by Mughal Emperor Shah Jahan."
+  },
+  {
+    "id": "k_hard_027",
+    "text": "In which state is the ancient Nalanda University situated?",
+    "options": [
+      "Uttar Pradesh",
+      "Bihar",
+      "Madhya Pradesh",
+      "Odisha"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Bihar",
+    "category": "Indian States",
+    "difficulty": "Hard",
+    "explanation": "Nalanda Mahavihara was an ancient center of learning in Bihar."
+  },
+  {
+    "id": "k_hard_028",
+    "text": "What is the smallest country in the world by area?",
+    "options": [
+      "Monaco",
+      "Vatican City",
+      "Nauru",
+      "San Marino"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Vatican City",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "Vatican City covers just 0.49 square kilometers."
+  },
+  {
+    "id": "k_hard_029",
+    "text": "What is the capital of Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Canberra",
+    "category": "Countries & Capitals",
+    "difficulty": "Hard",
+    "explanation": "Canberra is Australia's capital, chosen as a compromise between Sydney and Melbourne."
+  },
+  {
+    "id": "k_hard_030",
+    "text": "Which African country was formerly known as Abyssinia?",
+    "options": [
+      "Kenya",
+      "Ethiopia",
+      "Sudan",
+      "Somalia"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Ethiopia",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "Ethiopia was historically referred to internationally as Abyssinia."
+  },
+  {
+    "id": "k_hard_031",
+    "text": "Which desert is the largest hot desert in the world?",
+    "options": [
+      "Gobi Desert",
+      "Kalahari Desert",
+      "Sahara Desert",
+      "Thar Desert"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Sahara Desert",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "The Sahara Desert in North Africa covers over 9 million sq km."
+  },
+  {
+    "id": "k_hard_032",
+    "text": "Which country has the most natural lakes in the world?",
+    "options": [
+      "United States",
+      "Russia",
+      "Canada",
+      "Finland"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Canada",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "Canada contains over 60% of all the natural lakes on Earth."
+  },
+  {
+    "id": "k_hard_033",
+    "text": "What is the capital of New Zealand?",
+    "options": [
+      "Auckland",
+      "Wellington",
+      "Christchurch",
+      "Queenstown"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Wellington",
+    "category": "Countries & Capitals",
+    "difficulty": "Hard",
+    "explanation": "Wellington is the southern-most national capital in the world."
+  },
+  {
+    "id": "k_hard_034",
+    "text": "Which strait connects the Atlantic Ocean to the Mediterranean Sea?",
+    "options": [
+      "Bering Strait",
+      "Strait of Malacca",
+      "Strait of Gibraltar",
+      "Bosporus Strait"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Strait of Gibraltar",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "The Strait of Gibraltar connects the Atlantic to the Mediterranean."
+  },
+  {
+    "id": "k_hard_035",
+    "text": "In which country is Machu Picchu located?",
+    "options": [
+      "Chile",
+      "Peru",
+      "Colombia",
+      "Bolivia"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Peru",
+    "category": "Landmarks",
+    "difficulty": "Hard",
+    "explanation": "Machu Picchu is a 15th-century Inca citadel set high in Peru's Andes."
+  },
+  {
+    "id": "k_hard_036",
+    "text": "What is the deepest known location in Earth's oceans?",
+    "options": [
+      "Puerto Rico Trench",
+      "Java Trench",
+      "Mariana Trench",
+      "Tonga Trench"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Mariana Trench",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "Challenger Deep in the Mariana Trench plunges nearly 11,000 meters."
+  },
+  {
+    "id": "k_hard_037",
+    "text": "Which planet rotates on its side with an axial tilt of 98 degrees?",
+    "options": [
+      "Saturn",
+      "Uranus",
+      "Neptune",
+      "Jupiter"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Uranus",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Uranus has an extreme tilt of 98°, rotating almost horizontally."
+  },
+  {
+    "id": "k_hard_038",
+    "text": "What is the speed of light in vacuum approximately?",
+    "options": [
+      "30,000 km/s",
+      "150,000 km/s",
+      "300,000 km/s",
+      "3,000,000 km/s"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "300,000 km/s",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Light travels at roughly 299,792 kilometers per second in a vacuum."
+  },
+  {
+    "id": "k_hard_039",
+    "text": "What is dry ice made of?",
+    "options": [
+      "Solid Water",
+      "Solid Carbon Dioxide",
+      "Solid Nitrogen",
+      "Solid Methane"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Solid Carbon Dioxide",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Dry ice is solid carbon dioxide frozen at -78.5°C."
+  },
+  {
+    "id": "k_hard_040",
+    "text": "What is the chemical symbol for Gold?",
+    "options": [
+      "Ag",
+      "Au",
+      "Fe",
+      "Cu"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Au",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Au comes from the Latin word 'Aurum', meaning shining dawn."
+  },
+  {
+    "id": "k_hard_041",
+    "text": "What is the chemical symbol for Iron?",
+    "options": [
+      "Ir",
+      "Fe",
+      "In",
+      "Pb"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Fe",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Fe comes from the Latin word 'Ferrum'."
+  },
+  {
+    "id": "k_hard_042",
+    "text": "Which atmospheric gas makes up roughly 78% of Earth's air?",
+    "options": [
+      "Oxygen",
+      "Carbon Dioxide",
+      "Nitrogen",
+      "Argon"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Nitrogen",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Earth's atmosphere is roughly 78% nitrogen and 21% oxygen."
+  },
+  {
+    "id": "k_hard_043",
+    "text": "What is the primary power source that fuels our Sun?",
+    "options": [
+      "Coal burning",
+      "Nuclear fission",
+      "Nuclear fusion",
+      "Chemical combustion"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Nuclear fusion",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "The Sun fuses hydrogen nuclei into helium in its core."
+  },
+  {
+    "id": "k_hard_044",
+    "text": "Who invented the modern telephone?",
+    "options": [
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Alexander Graham Bell",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "Alexander Graham Bell was awarded the telephone patent in 1876."
+  },
+  {
+    "id": "k_hard_045",
+    "text": "Which is the largest island in the world?",
+    "options": [
+      "Madagascar",
+      "Greenland",
+      "Borneo",
+      "New Guinea"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Greenland",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "Greenland is the world's largest non-continental island."
+  },
+  {
+    "id": "k_hard_046",
+    "text": "How many players are on the field in a standard cricket team?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "11",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "A cricket team fields 11 players at a time."
+  },
+  {
+    "id": "k_hard_047",
+    "text": "How many rings make up the Olympic symbol?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "5",
+    "category": "World GK",
+    "difficulty": "Hard",
+    "explanation": "The Olympic symbol has 5 interlocking colored rings representing continents."
+  },
+  {
+    "id": "k_hard_048",
+    "text": "In which country is the famous Leaning Tower of Pisa?",
+    "options": [
+      "France",
+      "Spain",
+      "Italy",
+      "Austria"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Italy",
+    "category": "Landmarks",
+    "difficulty": "Hard",
+    "explanation": "The Leaning Tower of Pisa is located in Tuscany, Italy."
+  },
+  {
+    "id": "k_hard_049",
+    "text": "What is the official language of Brazil?",
+    "options": [
+      "Spanish",
+      "Portuguese",
+      "French",
+      "English"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Portuguese",
+    "category": "Countries & Capitals",
+    "difficulty": "Hard",
+    "explanation": "Brazil is the only Portuguese-speaking nation in South America."
+  },
+  {
+    "id": "k_hard_050",
+    "text": "What is the capital of South Korea?",
+    "options": [
+      "Tokyo",
+      "Seoul",
+      "Busan",
+      "Pyongyang"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Seoul",
+    "category": "Countries & Capitals",
+    "difficulty": "Hard",
+    "explanation": "Seoul is the capital and largest metropolis of South Korea."
+  },
+  {
+    "id": "k_hard_051",
+    "text": "What is the capital of Egypt?",
+    "options": [
+      "Alexandria",
+      "Cairo",
+      "Luxor",
+      "Giza"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Cairo",
+    "category": "Countries & Capitals",
+    "difficulty": "Hard",
+    "explanation": "Cairo, situated on the Nile, is the historic capital of Egypt."
+  },
+  {
+    "id": "k_hard_052",
+    "text": "Which organ cleans and filters waste products from human blood?",
+    "options": [
+      "Heart",
+      "Lungs",
+      "Kidneys",
+      "Stomach"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Kidneys",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Kidneys filter waste and extra water from blood to make urine."
+  },
+  {
+    "id": "k_hard_053",
+    "text": "What type of lens is used to correct nearsightedness (myopia)?",
+    "options": [
+      "Convex lens",
+      "Concave lens",
+      "Bifocal lens",
+      "Cylindrical only"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Concave lens",
+    "category": "Simple Science",
+    "difficulty": "Hard",
+    "explanation": "Diverging concave lenses are used to correct nearsightedness."
+  },
+  {
+    "id": "k_hard_054",
+    "text": "What is the capital of Meghalaya?",
+    "options": [
+      "Shillong",
+      "Aizawl",
+      "Imphal",
+      "Kohima"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Shillong",
+    "category": "Indian States",
+    "difficulty": "Hard",
+    "explanation": "Shillong, known as Scotland of the East, is Meghalaya's capital."
+  },
+  {
+    "id": "k_hard_055",
+    "text": "What is the capital of Nagaland?",
+    "options": [
+      "Dimapur",
+      "Kohima",
+      "Mokokchung",
+      "Tuensang"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Kohima",
+    "category": "Indian States",
+    "difficulty": "Hard",
+    "explanation": "Kohima is the capital city of Nagaland."
+  },
+  {
+    "id": "k_hard_056",
+    "text": "What is 13 x 7?",
+    "options": [
+      "81",
+      "87",
+      "91",
+      "97"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "91",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "13 x 7 = 91."
+  },
+  {
+    "id": "k_hard_057",
+    "text": "What is 250 divided by 5?",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "60"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "50",
+    "category": "Basic Math",
+    "difficulty": "Hard",
+    "explanation": "250 / 5 = 50."
+  },
+  {
+    "id": "k_hard_058",
+    "text": "How many sides does a decagon have?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "10",
+    "category": "Shapes & Colors",
+    "difficulty": "Hard",
+    "explanation": "A decagon is a polygon with 10 sides."
+  },
+  {
+    "id": "k_hard_059",
+    "text": "What is the capital of Tripura?",
+    "options": [
+      "Agartala",
+      "Udaipur",
+      "Dharmanagar",
+      "Kailashahar"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Agartala",
+    "category": "Indian States",
+    "difficulty": "Hard",
+    "explanation": "Agartala is the capital city of Tripura."
+  }
+]

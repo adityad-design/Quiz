@@ -1,0 +1,2687 @@
+[
+  {
+    "id": "a_easy_001",
+    "text": "What is 25% of 240?",
+    "options": [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "60",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "25% is one-fourth: 240 / 4 = 60."
+  },
+  {
+    "id": "a_easy_002",
+    "text": "What is the average of 10, 20, 30, and 40?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "25",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "Sum = 100. Average = 100 / 4 = 25."
+  },
+  {
+    "id": "a_easy_003",
+    "text": "If a shirt costs $80 and is discounted by 20%, what is the sale price?",
+    "options": [
+      "$60",
+      "$64",
+      "$68",
+      "$72"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "$64",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "20% discount = $16. Sale price = 80 - 16 = $64."
+  },
+  {
+    "id": "a_easy_004",
+    "text": "Solve for x: 3x + 9 = 24.",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "5",
+    "category": "Algebra & Logic",
+    "difficulty": "Easy",
+    "explanation": "3x = 24 - 9 = 15; x = 5."
+  },
+  {
+    "id": "a_easy_005",
+    "text": "What is the ratio of 45 minutes to 1 hour?",
+    "options": [
+      "3:4",
+      "2:3",
+      "4:5",
+      "1:2"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "3:4",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "45 mins : 60 mins simplifies by 15 to 3:4."
+  },
+  {
+    "id": "a_easy_006",
+    "text": "What is 15% of 500?",
+    "options": [
+      "65",
+      "70",
+      "75",
+      "80"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "75",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "10% is 50, 5% is 25. 50 + 25 = 75."
+  },
+  {
+    "id": "a_easy_007",
+    "text": "A car travels 180 km in 3 hours. What is its average speed?",
+    "options": [
+      "50 km/h",
+      "60 km/h",
+      "70 km/h",
+      "80 km/h"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "60 km/h",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "Speed = Distance / Time = 180 / 3 = 60 km/h."
+  },
+  {
+    "id": "a_easy_008",
+    "text": "What is the next number in series: 2, 4, 8, 16, __?",
+    "options": [
+      "24",
+      "30",
+      "32",
+      "36"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "32",
+    "category": "Algebra & Logic",
+    "difficulty": "Easy",
+    "explanation": "Each term doubles: 16 x 2 = 32."
+  },
+  {
+    "id": "a_easy_009",
+    "text": "In which year did India gain independence from British rule?",
+    "options": [
+      "1945",
+      "1947",
+      "1948",
+      "1950"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "1947",
+    "category": "Indian History",
+    "difficulty": "Easy",
+    "explanation": "India achieved independence on August 15, 1947."
+  },
+  {
+    "id": "a_easy_010",
+    "text": "Who was the first Prime Minister of independent India?",
+    "options": [
+      "Mahatma Gandhi",
+      "Jawaharlal Nehru",
+      "Sardar Patel",
+      "Dr. B.R. Ambedkar"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Jawaharlal Nehru",
+    "category": "Indian History",
+    "difficulty": "Easy",
+    "explanation": "Jawaharlal Nehru served as India's first Prime Minister from 1947 to 1964."
+  },
+  {
+    "id": "a_easy_011",
+    "text": "Who is known as the 'Father of the Indian Constitution'?",
+    "options": [
+      "Dr. Rajendra Prasad",
+      "Dr. B.R. Ambedkar",
+      "Jawaharlal Nehru",
+      "B.N. Rau"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Dr. B.R. Ambedkar",
+    "category": "Indian Polity",
+    "difficulty": "Easy",
+    "explanation": "Dr. Bhimrao Ramji Ambedkar chaired the Drafting Committee."
+  },
+  {
+    "id": "a_easy_012",
+    "text": "Who was called the 'Iron Man of India'?",
+    "options": [
+      "Subhash Chandra Bose",
+      "Sardar Vallabhbhai Patel",
+      "Bhagat Singh",
+      "Lal Bahadur Shastri"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Sardar Vallabhbhai Patel",
+    "category": "Indian History",
+    "difficulty": "Easy",
+    "explanation": "Sardar Patel unified over 560 princely states into the Indian Union."
+  },
+  {
+    "id": "a_easy_013",
+    "text": "The famous 'Dandi March' led by Mahatma Gandhi was related to which tax?",
+    "options": [
+      "Cotton Tax",
+      "Salt Tax",
+      "Land Tax",
+      "Indigo Tax"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Salt Tax",
+    "category": "Indian History",
+    "difficulty": "Easy",
+    "explanation": "The 1930 Salt Satyagraha protested the oppressive British salt monopoly."
+  },
+  {
+    "id": "a_easy_014",
+    "text": "In which year was the Quit India Movement launched?",
+    "options": [
+      "1938",
+      "1940",
+      "1942",
+      "1945"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "1942",
+    "category": "Indian History",
+    "difficulty": "Easy",
+    "explanation": "Mahatma Gandhi launched Quit India on 8 August 1942 in Bombay."
+  },
+  {
+    "id": "a_easy_015",
+    "text": "How many Fundamental Rights are currently recognized by the Indian Constitution?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "6",
+    "category": "Indian Polity",
+    "difficulty": "Easy",
+    "explanation": "There are 6 Fundamental Rights (Right to Property was removed by the 44th Amendment)."
+  },
+  {
+    "id": "a_easy_016",
+    "text": "What is the minimum voting age for Indian citizens?",
+    "options": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "18",
+    "category": "Indian Polity",
+    "difficulty": "Easy",
+    "explanation": "The 61st Constitutional Amendment lowered the voting age to 18 in 1988."
+  },
+  {
+    "id": "a_easy_017",
+    "text": "Who is the Supreme Commander of the Indian Armed Forces?",
+    "options": [
+      "Prime Minister",
+      "Defense Minister",
+      "President of India",
+      "Chief of Defense Staff"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "President of India",
+    "category": "Indian Polity",
+    "difficulty": "Easy",
+    "explanation": "The President of India is the constitutional Commander-in-Chief."
+  },
+  {
+    "id": "a_easy_018",
+    "text": "What is the tenure of a member of the Rajya Sabha?",
+    "options": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "Permanent without term"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "6 years",
+    "category": "Indian Polity",
+    "difficulty": "Easy",
+    "explanation": "Rajya Sabha members are elected for 6-year terms; 1/3rd retire every 2 years."
+  },
+  {
+    "id": "a_easy_019",
+    "text": "Which article of the Indian Constitution deals with the Right to Equality?",
+    "options": [
+      "Articles 14–18",
+      "Articles 19–22",
+      "Articles 25–28",
+      "Article 32"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Articles 14–18",
+    "category": "Indian Polity",
+    "difficulty": "Easy",
+    "explanation": "Articles 14 through 18 guarantee equality before the law and prohibit discrimination."
+  },
+  {
+    "id": "a_easy_020",
+    "text": "Which ancient wonder was located in Alexandria, Egypt?",
+    "options": [
+      "Hanging Gardens",
+      "Lighthouse of Alexandria",
+      "Colossus of Rhodes",
+      "Temple of Artemis"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Lighthouse of Alexandria",
+    "category": "World History",
+    "difficulty": "Easy",
+    "explanation": "The Pharos (Lighthouse) of Alexandria guided Mediterranean ships."
+  },
+  {
+    "id": "a_easy_021",
+    "text": "In which year did World War II officially end?",
+    "options": [
+      "1943",
+      "1944",
+      "1945",
+      "1948"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "1945",
+    "category": "World History",
+    "difficulty": "Easy",
+    "explanation": "World War II concluded in 1945 with Allied victory."
+  },
+  {
+    "id": "a_easy_022",
+    "text": "What is the longest continental mountain range in the world?",
+    "options": [
+      "Himalayas",
+      "Rockies",
+      "Andes",
+      "Alps"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Andes",
+    "category": "World Geography",
+    "difficulty": "Easy",
+    "explanation": "The Andes range in South America spans over 7,000 kilometers."
+  },
+  {
+    "id": "a_easy_023",
+    "text": "Which city is known as the 'City of Canals'?",
+    "options": [
+      "Amsterdam",
+      "Venice",
+      "Bruges",
+      "Stockholm"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Venice",
+    "category": "World Geography",
+    "difficulty": "Easy",
+    "explanation": "Venice, Italy is famous for its intricate network of waterways."
+  },
+  {
+    "id": "a_easy_024",
+    "text": "What is the capital city of Australia?",
+    "options": [
+      "Sydney",
+      "Melbourne",
+      "Canberra",
+      "Perth"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Canberra",
+    "category": "World Geography",
+    "difficulty": "Easy",
+    "explanation": "Canberra was founded in 1913 as Australia's federal capital."
+  },
+  {
+    "id": "a_easy_025",
+    "text": "Which country is known as the 'Land of the Rising Sun'?",
+    "options": [
+      "China",
+      "Japan",
+      "South Korea",
+      "Thailand"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Japan",
+    "category": "World Geography",
+    "difficulty": "Easy",
+    "explanation": "Japan is called Nihon/Nippon, meaning 'origin of the sun'."
+  },
+  {
+    "id": "a_easy_026",
+    "text": "What is the primary semiconductor material used in modern computer chips?",
+    "options": [
+      "Copper",
+      "Silicon",
+      "Carbon",
+      "Gallium"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Silicon",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "Silicon's valence and abundance make it the cornerstone of semiconductors."
+  },
+  {
+    "id": "a_easy_027",
+    "text": "What does 'HTTP' stand for in web browsing?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Transmission Text Program",
+      "Hyperlink Text Test Path",
+      "Home Terminal Transfer Portal"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "HyperText Transfer Protocol",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "HTTP is the application protocol that powers data transfer on the World Wide Web."
+  },
+  {
+    "id": "a_easy_028",
+    "text": "Who formulated the three laws of classical motion?",
+    "options": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Galileo Galilei",
+      "Johannes Kepler"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Isaac Newton",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "Sir Isaac Newton published his laws of motion in the Principia in 1687."
+  },
+  {
+    "id": "a_easy_029",
+    "text": "What is the powerhouse organelle of eukaryotic cells?",
+    "options": [
+      "Endoplasmic Reticulum",
+      "Mitochondria",
+      "Golgi Apparatus",
+      "Lysosome"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Mitochondria",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "Mitochondria generate most of the cell's supply of ATP energy."
+  },
+  {
+    "id": "a_easy_030",
+    "text": "Which blood group is known as the universal donor for red blood cells?",
+    "options": [
+      "AB Positive",
+      "O Negative",
+      "A Positive",
+      "B Negative"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "O Negative",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "O Negative blood lacks A, B, and Rh antigens, making it safe for anyone."
+  },
+  {
+    "id": "a_easy_031",
+    "text": "What does CPU stand for in computer hardware?",
+    "options": [
+      "Central Process Unit",
+      "Central Processing Unit",
+      "Core Power Unit",
+      "Computer Program Utility"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Central Processing Unit",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "The CPU carries out instructions of computer programs."
+  },
+  {
+    "id": "a_easy_032",
+    "text": "Which gas is the most abundant in Earth's atmosphere?",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon Dioxide",
+      "Argon"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Nitrogen",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "Nitrogen accounts for approximately 78.08% of Earth's air."
+  },
+  {
+    "id": "a_easy_033",
+    "text": "What does 'GDP' stand for in economic terms?",
+    "options": [
+      "Gross Domestic Product",
+      "General Domestic Profit",
+      "Global Development Price",
+      "Gross Division Production"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Gross Domestic Product",
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "explanation": "Gross Domestic Product measures monetary market value of all final goods produced."
+  },
+  {
+    "id": "a_easy_034",
+    "text": "Which institution acts as the central bank of India?",
+    "options": [
+      "State Bank of India",
+      "Reserve Bank of India",
+      "HDFC Bank",
+      "NITI Aayog"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Reserve Bank of India",
+    "category": "Indian Polity",
+    "difficulty": "Easy",
+    "explanation": "The Reserve Bank of India (RBI) controls monetary policy and currency issuance."
+  },
+  {
+    "id": "a_easy_035",
+    "text": "Where are the headquarters of the United Nations located?",
+    "options": [
+      "Geneva",
+      "Paris",
+      "New York City",
+      "London"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "New York City",
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "explanation": "The UN headquarters are situated in Manhattan, New York City."
+  },
+  {
+    "id": "a_easy_036",
+    "text": "Who wrote the Indian national anthem 'Jana Gana Mana'?",
+    "options": [
+      "Bankim Chandra Chatterjee",
+      "Rabindranath Tagore",
+      "Sarojini Naidu",
+      "Sri Aurobindo"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Rabindranath Tagore",
+    "category": "Indian History",
+    "difficulty": "Easy",
+    "explanation": "Rabindranath Tagore composed both India's and Bangladesh's national anthems."
+  },
+  {
+    "id": "a_easy_037",
+    "text": "Which is the largest public sector commercial bank in India?",
+    "options": [
+      "Punjab National Bank",
+      "State Bank of India",
+      "Bank of Baroda",
+      "Canara Bank"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "State Bank of India",
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "explanation": "State Bank of India (SBI) is India's largest public sector bank."
+  },
+  {
+    "id": "a_easy_038",
+    "text": "What is 12% of 300?",
+    "options": [
+      "24",
+      "36",
+      "42",
+      "48"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "36",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "12 x 3 = 36."
+  },
+  {
+    "id": "a_easy_039",
+    "text": "What is the value of 2 to the power of 5 (2⁵)?",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "32",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "2 x 2 x 2 x 2 x 2 = 32."
+  },
+  {
+    "id": "a_easy_040",
+    "text": "If the ratio of boys to girls in a class of 40 is 3:2, how many boys are there?",
+    "options": [
+      "16",
+      "20",
+      "24",
+      "28"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "24",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "3/5 of 40 = 3 x 8 = 24 boys."
+  },
+  {
+    "id": "a_easy_041",
+    "text": "Who was the second Prime Minister of India, known for 'Jai Jawan Jai Kisan'?",
+    "options": [
+      "Morarji Desai",
+      "Lal Bahadur Shastri",
+      "Indira Gandhi",
+      "Charan Singh"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Lal Bahadur Shastri",
+    "category": "Indian History",
+    "difficulty": "Easy",
+    "explanation": "Lal Bahadur Shastri coined this slogan during the 1965 war."
+  },
+  {
+    "id": "a_easy_042",
+    "text": "Which river is known as the 'Ganga of the South'?",
+    "options": [
+      "Krishna",
+      "Godavari",
+      "Cauvery (Kaveri)",
+      "Narmada"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Godavari",
+    "category": "Indian Geography",
+    "difficulty": "Easy",
+    "explanation": "The Godavari is known as Dakshin Ganga due to its scale and spiritual reverence."
+  },
+  {
+    "id": "a_easy_043",
+    "text": "In which Indian state is the Kaziranga National Park located?",
+    "options": [
+      "West Bengal",
+      "Assam",
+      "Manipur",
+      "Arunachal Pradesh"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Assam",
+    "category": "Indian Geography",
+    "difficulty": "Easy",
+    "explanation": "Kaziranga in Assam is home to the world's largest population of great one-horned rhinos."
+  },
+  {
+    "id": "a_easy_044",
+    "text": "Who is considered the author of the epic 'Mahabharata'?",
+    "options": [
+      "Valmiki",
+      "Ved Vyasa",
+      "Kalidasa",
+      "Tulsidas"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Ved Vyasa",
+    "category": "Indian History",
+    "difficulty": "Easy",
+    "explanation": "Sage Ved Vyasa is credited with composing the epic Mahabharata."
+  },
+  {
+    "id": "a_easy_045",
+    "text": "Which planet has the shortest day (fastest rotation) in our solar system?",
+    "options": [
+      "Mercury",
+      "Jupiter",
+      "Saturn",
+      "Earth"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Jupiter",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "Jupiter rotates in just under 10 hours despite its massive size."
+  },
+  {
+    "id": "a_easy_046",
+    "text": "What is the chemical formula for ordinary table salt?",
+    "options": [
+      "KCl",
+      "NaCl",
+      "NaOH",
+      "CaCl₂"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "NaCl",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "Sodium chloride (NaCl) is common table salt."
+  },
+  {
+    "id": "a_easy_047",
+    "text": "Which Indian state has the highest literacy rate according to census data?",
+    "options": [
+      "Tamil Nadu",
+      "Goa",
+      "Kerala",
+      "Mizoram"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Kerala",
+    "category": "Indian Geography",
+    "difficulty": "Easy",
+    "explanation": "Kerala consistently leads India with literacy rates exceeding 94%."
+  },
+  {
+    "id": "a_easy_048",
+    "text": "Which organ in the human body produces insulin?",
+    "options": [
+      "Liver",
+      "Pancreas",
+      "Kidney",
+      "Gallbladder"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Pancreas",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "The beta cells in the islets of Langerhans in the pancreas secrete insulin."
+  },
+  {
+    "id": "a_easy_049",
+    "text": "What is the capital of Canada?",
+    "options": [
+      "Toronto",
+      "Montreal",
+      "Ottawa",
+      "Calgary"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Ottawa",
+    "category": "World Geography",
+    "difficulty": "Easy",
+    "explanation": "Ottawa is Canada's capital city in Ontario."
+  },
+  {
+    "id": "a_easy_050",
+    "text": "What is the currency of the United Kingdom?",
+    "options": [
+      "Euro",
+      "Pound Sterling",
+      "Dollar",
+      "Franc"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Pound Sterling",
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "explanation": "The UK uses the British Pound Sterling (£)."
+  },
+  {
+    "id": "a_easy_051",
+    "text": "Who discovered penicillin, the first true antibiotic?",
+    "options": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Robert Koch",
+      "Edward Jenner"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Alexander Fleming",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "Alexander Fleming discovered penicillin from Penicillium mold in 1928."
+  },
+  {
+    "id": "a_easy_052",
+    "text": "What is the square of 14?",
+    "options": [
+      "169",
+      "186",
+      "196",
+      "216"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "196",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "14 x 14 = 196."
+  },
+  {
+    "id": "a_easy_053",
+    "text": "Solve for y: 5y - 15 = 35.",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "10",
+    "category": "Algebra & Logic",
+    "difficulty": "Easy",
+    "explanation": "5y = 50; y = 10."
+  },
+  {
+    "id": "a_easy_054",
+    "text": "How many degrees are in the angles of a triangle combined?",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "180°",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "The sum of interior angles in any Euclidean triangle is 180 degrees."
+  },
+  {
+    "id": "a_easy_055",
+    "text": "What is the currency of South Africa?",
+    "options": [
+      "Shilling",
+      "Rand",
+      "Pula",
+      "Kwacha"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Rand",
+    "category": "General Knowledge",
+    "difficulty": "Easy",
+    "explanation": "The official currency of South Africa is the South African Rand (ZAR)."
+  },
+  {
+    "id": "a_easy_056",
+    "text": "Which element has the chemical symbol 'O'?",
+    "options": [
+      "Osmium",
+      "Oxygen",
+      "Gold",
+      "Lead"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Oxygen",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "O represents Oxygen with atomic number 8."
+  },
+  {
+    "id": "a_easy_057",
+    "text": "Which Indian state is famous for the classical dance form 'Kathakali'?",
+    "options": [
+      "Karnataka",
+      "Tamil Nadu",
+      "Kerala",
+      "Andhra Pradesh"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Kerala",
+    "category": "Indian Geography",
+    "difficulty": "Easy",
+    "explanation": "Kathakali originated in Kerala with elaborate makeup and costumes."
+  },
+  {
+    "id": "a_easy_058",
+    "text": "What is the boiling point of water in Fahrenheit at sea level?",
+    "options": [
+      "100°F",
+      "180°F",
+      "212°F",
+      "250°F"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "212°F",
+    "category": "Science & Tech",
+    "difficulty": "Easy",
+    "explanation": "Water boils at 212°F (100°C)."
+  },
+  {
+    "id": "a_easy_059",
+    "text": "Who was the Mughal Emperor who built the Red Fort in Delhi?",
+    "options": [
+      "Akbar",
+      "Jahangir",
+      "Shah Jahan",
+      "Aurangzeb"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Shah Jahan",
+    "category": "Indian History",
+    "difficulty": "Easy",
+    "explanation": "Shah Jahan commissioned the Red Fort in 1638 when shifting capital to Shahjahanabad."
+  },
+  {
+    "id": "a_easy_060",
+    "text": "What is the value of Pi (π) rounded to two decimal places?",
+    "options": [
+      "3.12",
+      "3.14",
+      "3.16",
+      "3.18"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "3.14",
+    "category": "Quantitative Math",
+    "difficulty": "Easy",
+    "explanation": "Pi is approximately 3.14159..."
+  },
+  {
+    "id": "a_med_001",
+    "text": "If an item is sold for $120 with a 20% profit on cost price, what was the cost price?",
+    "options": [
+      "$96",
+      "$100",
+      "$105",
+      "$110"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "$100",
+    "category": "Quantitative Math",
+    "difficulty": "Medium",
+    "explanation": "Selling Price = 1.20 x Cost. Cost = 120 / 1.20 = $100."
+  },
+  {
+    "id": "a_med_002",
+    "text": "What is the average of the first 5 prime numbers (2, 3, 5, 7, 11)?",
+    "options": [
+      "5.2",
+      "5.6",
+      "6.0",
+      "6.4"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "5.6",
+    "category": "Quantitative Math",
+    "difficulty": "Medium",
+    "explanation": "Sum = 28. Average = 28 / 5 = 5.6."
+  },
+  {
+    "id": "a_med_003",
+    "text": "If 6 workers take 8 hours to complete a task, how many hours will 4 workers take at the same rate?",
+    "options": [
+      "10 hours",
+      "12 hours",
+      "14 hours",
+      "16 hours"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "12 hours",
+    "category": "Quantitative Math",
+    "difficulty": "Medium",
+    "explanation": "Total work = 6 x 8 = 48 worker-hours. Time for 4 workers = 48 / 4 = 12 hours."
+  },
+  {
+    "id": "a_med_004",
+    "text": "What is the next number in series: 2, 6, 12, 20, 30, __?",
+    "options": [
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "42",
+    "category": "Algebra & Logic",
+    "difficulty": "Medium",
+    "explanation": "Differences are 4, 6, 8, 10. Next difference is 12: 30 + 12 = 42 (n² + n)."
+  },
+  {
+    "id": "a_med_005",
+    "text": "If a card is drawn from a standard deck of 52 cards, what is the probability of drawing an Ace?",
+    "options": [
+      "1/13",
+      "1/26",
+      "1/52",
+      "4/13"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "1/13",
+    "category": "Algebra & Logic",
+    "difficulty": "Medium",
+    "explanation": "There are 4 Aces: 4/52 = 1/13."
+  },
+  {
+    "id": "a_med_006",
+    "text": "What is the compound interest on $1,000 for 2 years at 10% per annum compounded annually?",
+    "options": [
+      "$200",
+      "$210",
+      "$220",
+      "$250"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "$210",
+    "category": "Quantitative Math",
+    "difficulty": "Medium",
+    "explanation": "Amount = 1000 x (1.10)² = $1,210. Interest = 1210 - 1000 = $210."
+  },
+  {
+    "id": "a_med_007",
+    "text": "A train 150 meters long crosses a pole in 15 seconds. What is its speed in km/h?",
+    "options": [
+      "30 km/h",
+      "36 km/h",
+      "40 km/h",
+      "45 km/h"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "36 km/h",
+    "category": "Quantitative Math",
+    "difficulty": "Medium",
+    "explanation": "Speed = 150m / 15s = 10 m/s. 10 x 3.6 = 36 km/h."
+  },
+  {
+    "id": "a_med_008",
+    "text": "If log₁₀(x) = 3, what is the value of x?",
+    "options": [
+      "30",
+      "100",
+      "300",
+      "1000"
+    ],
+    "correctIndex": 3,
+    "correctAnswer": "1000",
+    "category": "Algebra & Logic",
+    "difficulty": "Medium",
+    "explanation": "10³ = 1,000."
+  },
+  {
+    "id": "a_med_009",
+    "text": "Who founded the Arya Samaj in 1875?",
+    "options": [
+      "Raja Ram Mohan Roy",
+      "Swami Dayananda Saraswati",
+      "Swami Vivekananda",
+      "Ishwar Chandra Vidyasagar"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Swami Dayananda Saraswati",
+    "category": "Indian History",
+    "difficulty": "Medium",
+    "explanation": "Swami Dayananda Saraswati established the Arya Samaj in Bombay."
+  },
+  {
+    "id": "a_med_010",
+    "text": "In which session of Congress was the 'Purna Swaraj' (Complete Independence) resolution adopted?",
+    "options": [
+      "1920 Nagpur",
+      "1929 Lahore",
+      "1931 Karachi",
+      "1936 Lucknow"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "1929 Lahore",
+    "category": "Indian History",
+    "difficulty": "Medium",
+    "explanation": "The 1929 Lahore session presided over by Jawaharlal Nehru passed Purna Swaraj."
+  },
+  {
+    "id": "a_med_011",
+    "text": "Who was the Viceroy of India during the 1905 Partition of Bengal?",
+    "options": [
+      "Lord Curzon",
+      "Lord Ripon",
+      "Lord Minto",
+      "Lord Dalhousie"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Lord Curzon",
+    "category": "Indian History",
+    "difficulty": "Medium",
+    "explanation": "Lord Curzon partitioned Bengal in 1905 on administrative pretext."
+  },
+  {
+    "id": "a_med_012",
+    "text": "The famous Battle of Plassey was fought in which year?",
+    "options": [
+      "1757",
+      "1761",
+      "1764",
+      "1773"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "1757",
+    "category": "Indian History",
+    "difficulty": "Medium",
+    "explanation": "Robert Clive defeated Siraj-ud-Daulah at Plassey on June 23, 1757."
+  },
+  {
+    "id": "a_med_013",
+    "text": "Which ancient Indian king embraced Buddhism after the bloody Kalinga War?",
+    "options": [
+      "Chandragupta Maurya",
+      "Ashoka",
+      "Samudragupta",
+      "Harshavardhana"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Ashoka",
+    "category": "Indian History",
+    "difficulty": "Medium",
+    "explanation": "Emperor Ashoka renounced conquest by war in favor of Dhamma Vijaya."
+  },
+  {
+    "id": "a_med_014",
+    "text": "Who was the founder of the Maurya Empire?",
+    "options": [
+      "Chandragupta Maurya",
+      "Bindusara",
+      "Ashoka",
+      "Brihadratha"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Chandragupta Maurya",
+    "category": "Indian History",
+    "difficulty": "Medium",
+    "explanation": "Chandragupta Maurya founded the dynasty with guidance from Chanakya."
+  },
+  {
+    "id": "a_med_015",
+    "text": "Which constitutional amendment introduced the Goods and Services Tax (GST) in India?",
+    "options": [
+      "100th",
+      "101st",
+      "102nd",
+      "103rd"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "101st",
+    "category": "Indian Polity",
+    "difficulty": "Medium",
+    "explanation": "The 101st Amendment Act, 2016 introduced comprehensive nationwide GST."
+  },
+  {
+    "id": "a_med_016",
+    "text": "Under which Article of the Constitution can the President proclaim a Financial Emergency?",
+    "options": [
+      "Article 352",
+      "Article 356",
+      "Article 360",
+      "Article 368"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Article 360",
+    "category": "Indian Polity",
+    "difficulty": "Medium",
+    "explanation": "Article 360 allows declaration of financial emergency (never invoked in India)."
+  },
+  {
+    "id": "a_med_017",
+    "text": "Which writ literally means 'to have the body of'?",
+    "options": [
+      "Mandamus",
+      "Habeas Corpus",
+      "Quo-Warranto",
+      "Certiorari"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Habeas Corpus",
+    "category": "Indian Polity",
+    "difficulty": "Medium",
+    "explanation": "Habeas Corpus protects individuals against unlawful and arbitrary detention."
+  },
+  {
+    "id": "a_med_018",
+    "text": "Which schedule of the Indian Constitution lists the officially recognized languages?",
+    "options": [
+      "Seventh Schedule",
+      "Eighth Schedule",
+      "Ninth Schedule",
+      "Eleventh Schedule"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Eighth Schedule",
+    "category": "Indian Polity",
+    "difficulty": "Medium",
+    "explanation": "The Eighth Schedule currently enumerates 22 scheduled languages."
+  },
+  {
+    "id": "a_med_019",
+    "text": "Who was the constitutional advisor to the Constituent Assembly of India?",
+    "options": [
+      "B.R. Ambedkar",
+      "B.N. Rau",
+      "K.M. Munshi",
+      "Sachchidananda Sinha"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "B.N. Rau",
+    "category": "Indian Polity",
+    "difficulty": "Medium",
+    "explanation": "Sir Benegal Narsing Rau prepared the initial constitutional draft."
+  },
+  {
+    "id": "a_med_020",
+    "text": "Which canal connects the Mediterranean Sea directly to the Red Sea?",
+    "options": [
+      "Panama Canal",
+      "Suez Canal",
+      "Kiel Canal",
+      "Corinth Canal"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Suez Canal",
+    "category": "World Geography",
+    "difficulty": "Medium",
+    "explanation": "The Suez Canal in Egypt opened in 1869, shortening maritime trade routes."
+  },
+  {
+    "id": "a_med_021",
+    "text": "The Renaissance period originated in which European country during the 14th century?",
+    "options": [
+      "France",
+      "England",
+      "Italy",
+      "Germany"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Italy",
+    "category": "World History",
+    "difficulty": "Medium",
+    "explanation": "The Renaissance began in Italian city-states like Florence and Venice."
+  },
+  {
+    "id": "a_med_022",
+    "text": "Which is the largest landlocked country in the world by surface area?",
+    "options": [
+      "Mongolia",
+      "Kazakhstan",
+      "Bolivia",
+      "Chad"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Kazakhstan",
+    "category": "World Geography",
+    "difficulty": "Medium",
+    "explanation": "Kazakhstan covers 2.72 million km² with no access to open world oceans."
+  },
+  {
+    "id": "a_med_023",
+    "text": "The historic 1215 document 'Magna Carta' was signed in which country?",
+    "options": [
+      "France",
+      "England",
+      "Scotland",
+      "Germany"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "England",
+    "category": "World History",
+    "difficulty": "Medium",
+    "explanation": "King John of England signed the Magna Carta at Runnymede in 1215."
+  },
+  {
+    "id": "a_med_024",
+    "text": "Which strait separates mainland Asia from North America?",
+    "options": [
+      "Bering Strait",
+      "Cook Strait",
+      "Strait of Magellan",
+      "Bosphorus Strait"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Bering Strait",
+    "category": "World Geography",
+    "difficulty": "Medium",
+    "explanation": "The Bering Strait connects the Arctic Ocean to the Bering Sea between Russia and Alaska."
+  },
+  {
+    "id": "a_med_025",
+    "text": "What is the capital of Turkey?",
+    "options": [
+      "Istanbul",
+      "Ankara",
+      "Izmir",
+      "Antalya"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Ankara",
+    "category": "World Geography",
+    "difficulty": "Medium",
+    "explanation": "Ankara is the capital of Turkey, while Istanbul is its largest city."
+  },
+  {
+    "id": "a_med_026",
+    "text": "What does 'DNA' stand for in molecular biology?",
+    "options": [
+      "Deoxyribonucleic Acid",
+      "Diribonucleic Acid",
+      "Deoxyribose Nitrogen Acid",
+      "Dual Nucleic Atom"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Deoxyribonucleic Acid",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "DNA is the hereditary macromolecule carrying genetic instructions."
+  },
+  {
+    "id": "a_med_027",
+    "text": "Which subatomic particle carries a negative electrical charge?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Positron"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Electron",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "Electrons orbit the nucleus with a negative elementary charge."
+  },
+  {
+    "id": "a_med_028",
+    "text": "What is the SI unit of electric current?",
+    "options": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Ampere",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "The Ampere (A) measures the rate of electric charge flow."
+  },
+  {
+    "id": "a_med_029",
+    "text": "Which space telescope was launched in December 2021 to succeed Hubble?",
+    "options": [
+      "Kepler",
+      "James Webb Space Telescope",
+      "Spitzer",
+      "Chandra"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "James Webb Space Telescope",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "JWST observes in infrared with a 6.5-meter gold-coated primary mirror."
+  },
+  {
+    "id": "a_med_030",
+    "text": "What does 'GPU' stand for in modern computing and AI?",
+    "options": [
+      "General Processing Unit",
+      "Graphics Processing Unit",
+      "Grid Parallel Unit",
+      "Graphical Power Utility"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Graphics Processing Unit",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "GPUs excel at massive parallel computations essential for 3D and AI."
+  },
+  {
+    "id": "a_med_031",
+    "text": "What is the chemical name for laughing gas?",
+    "options": [
+      "Nitrogen dioxide",
+      "Nitrous oxide",
+      "Nitric oxide",
+      "Dinitrogen tetroxide"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Nitrous oxide",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "Nitrous oxide (N₂O) produces mild euphoria and analgesic effects."
+  },
+  {
+    "id": "a_med_032",
+    "text": "In computer networking, what protocol resolves domain names to IP addresses?",
+    "options": [
+      "DHCP",
+      "DNS",
+      "FTP",
+      "SNMP"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "DNS",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "The Domain Name System (DNS) translates human URLs into numerical IP addresses."
+  },
+  {
+    "id": "a_med_033",
+    "text": "Which is the highest peak in the Western Ghats of India?",
+    "options": [
+      "Doda Betta",
+      "Anamudi",
+      "Kalsubai",
+      "Mullayanagiri"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Anamudi",
+    "category": "Indian Geography",
+    "difficulty": "Medium",
+    "explanation": "Anamudi in Kerala stands at 2,695 meters as South India's highest peak."
+  },
+  {
+    "id": "a_med_034",
+    "text": "The Tropic of Cancer passes through how many Indian states?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "8",
+    "category": "Indian Geography",
+    "difficulty": "Medium",
+    "explanation": "It passes through 8 states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram."
+  },
+  {
+    "id": "a_med_035",
+    "text": "Which Indian state produces the largest quantity of tea in the country?",
+    "options": [
+      "Kerala",
+      "West Bengal",
+      "Assam",
+      "Tamil Nadu"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Assam",
+    "category": "Indian Geography",
+    "difficulty": "Medium",
+    "explanation": "Assam produces over 50% of India's total annual tea harvest."
+  },
+  {
+    "id": "a_med_036",
+    "text": "The famous 'Silent Valley National Park' is located in which Indian state?",
+    "options": [
+      "Tamil Nadu",
+      "Karnataka",
+      "Kerala",
+      "Uttarakhand"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Kerala",
+    "category": "Indian Geography",
+    "difficulty": "Medium",
+    "explanation": "Silent Valley in the Nilgiri hills of Kerala is renowned for tropical rainforests."
+  },
+  {
+    "id": "a_med_037",
+    "text": "Which river originates from the Mansarovar Lake region in Tibet?",
+    "options": [
+      "Ganga",
+      "Brahmaputra",
+      "Godavari",
+      "Mahanadi"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Brahmaputra",
+    "category": "Indian Geography",
+    "difficulty": "Medium",
+    "explanation": "The Brahmaputra (known as Yarlung Tsangpo in Tibet) rises near Mansarovar."
+  },
+  {
+    "id": "a_med_038",
+    "text": "Where are the headquarters of the International Monetary Fund (IMF) situated?",
+    "options": [
+      "Geneva",
+      "London",
+      "Washington, D.C.",
+      "New York City"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Washington, D.C.",
+    "category": "General Knowledge",
+    "difficulty": "Medium",
+    "explanation": "The IMF and World Bank are headquartered in Washington, D.C."
+  },
+  {
+    "id": "a_med_039",
+    "text": "Who wrote the foundational economics treatise 'The Wealth of Nations' (1776)?",
+    "options": [
+      "John Maynard Keynes",
+      "Adam Smith",
+      "Karl Marx",
+      "Milton Friedman"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Adam Smith",
+    "category": "General Knowledge",
+    "difficulty": "Medium",
+    "explanation": "Adam Smith is widely regarded as the father of modern economics."
+  },
+  {
+    "id": "a_med_040",
+    "text": "The Nobel Prize in Economics is officially named after which entity?",
+    "options": [
+      "Alfred Nobel directly",
+      "Sveriges Riksbank",
+      "Bank of England",
+      "Norwegian Parliament"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Sveriges Riksbank",
+    "category": "General Knowledge",
+    "difficulty": "Medium",
+    "explanation": "It is the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel."
+  },
+  {
+    "id": "a_med_041",
+    "text": "Which country has the highest number of time zones spanning its territory?",
+    "options": [
+      "Russia",
+      "United States",
+      "France",
+      "China"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "France",
+    "category": "World Geography",
+    "difficulty": "Medium",
+    "explanation": "France spans 12 time zones due to its overseas territories around the globe."
+  },
+  {
+    "id": "a_med_042",
+    "text": "What is the term for a market structure dominated by only a few large sellers?",
+    "options": [
+      "Monopoly",
+      "Monopsony",
+      "Oligopoly",
+      "Perfect Competition"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Oligopoly",
+    "category": "General Knowledge",
+    "difficulty": "Medium",
+    "explanation": "An oligopoly features a small number of interdependent commercial producers."
+  },
+  {
+    "id": "a_med_043",
+    "text": "What is the square root of 225?",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "15",
+    "category": "Quantitative Math",
+    "difficulty": "Medium",
+    "explanation": "15 x 15 = 225."
+  },
+  {
+    "id": "a_med_044",
+    "text": "Solve for x: x² - 9 = 0 (positive root).",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "3",
+    "category": "Algebra & Logic",
+    "difficulty": "Medium",
+    "explanation": "x² = 9, so positive root is 3."
+  },
+  {
+    "id": "a_med_045",
+    "text": "What is the value of 5! (5 factorial)?",
+    "options": [
+      "60",
+      "100",
+      "120",
+      "150"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "120",
+    "category": "Quantitative Math",
+    "difficulty": "Medium",
+    "explanation": "5 x 4 x 3 x 2 x 1 = 120."
+  },
+  {
+    "id": "a_med_046",
+    "text": "Who was the founder of the Sikh faith and its first Guru?",
+    "options": [
+      "Guru Nanak Dev",
+      "Guru Gobind Singh",
+      "Guru Arjan Dev",
+      "Guru Tegh Bahadur"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Guru Nanak Dev",
+    "category": "Indian History",
+    "difficulty": "Medium",
+    "explanation": "Guru Nanak Dev founded Sikhism in the 15th century in Punjab."
+  },
+  {
+    "id": "a_med_047",
+    "text": "Which layer of the atmosphere contains the majority of weather phenomena?",
+    "options": [
+      "Stratosphere",
+      "Troposphere",
+      "Mesosphere",
+      "Thermosphere"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Troposphere",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "The troposphere extends 8–15 km up and contains almost all atmospheric water vapor."
+  },
+  {
+    "id": "a_med_048",
+    "text": "What is the primary function of platelets in human blood?",
+    "options": [
+      "Oxygen transport",
+      "Blood clotting",
+      "Antibody production",
+      "Hormone secretion"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Blood clotting",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "Platelets (thrombocytes) aggregate to plug wounds and clot blood."
+  },
+  {
+    "id": "a_med_049",
+    "text": "Which treaty ended World War I in 1919?",
+    "options": [
+      "Treaty of Paris",
+      "Treaty of Versailles",
+      "Treaty of Ghent",
+      "Treaty of Utrecht"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Treaty of Versailles",
+    "category": "World History",
+    "difficulty": "Medium",
+    "explanation": "The Treaty of Versailles was signed at the Paris Peace Conference in June 1919."
+  },
+  {
+    "id": "a_med_050",
+    "text": "What is the capital of Switzerland?",
+    "options": [
+      "Zurich",
+      "Geneva",
+      "Bern",
+      "Basel"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Bern",
+    "category": "World Geography",
+    "difficulty": "Medium",
+    "explanation": "Bern is the de facto federal city and capital of Switzerland."
+  },
+  {
+    "id": "a_med_051",
+    "text": "What is the half-life of Carbon-14 used in archaeological radiocarbon dating?",
+    "options": [
+      "~1,250 years",
+      "~5,730 years",
+      "~10,500 years",
+      "~24,000 years"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "~5,730 years",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "Carbon-14 decays with a half-life of approximately 5,730 ± 40 years."
+  },
+  {
+    "id": "a_med_052",
+    "text": "Which Indian state has the largest forest cover by total area?",
+    "options": [
+      "Arunachal Pradesh",
+      "Madhya Pradesh",
+      "Chhattisgarh",
+      "Odisha"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Madhya Pradesh",
+    "category": "Indian Geography",
+    "difficulty": "Medium",
+    "explanation": "Madhya Pradesh has the largest total forested area in India."
+  },
+  {
+    "id": "a_med_053",
+    "text": "What is the SI unit of pressure?",
+    "options": [
+      "Pascal",
+      "Joule",
+      "Newton",
+      "Bar"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Pascal",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "The Pascal (Pa) is one Newton per square meter."
+  },
+  {
+    "id": "a_med_054",
+    "text": "What does 'URL' stand for in internet navigation?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Reference Link",
+      "Unified Routing Location",
+      "User Record Locator"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Uniform Resource Locator",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "URL specifies the web address of a digital resource."
+  },
+  {
+    "id": "a_med_055",
+    "text": "Who was the first woman Prime Minister in world history?",
+    "options": [
+      "Indira Gandhi",
+      "Sirimavo Bandaranaike",
+      "Margaret Thatcher",
+      "Golda Meir"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Sirimavo Bandaranaike",
+    "category": "World History",
+    "difficulty": "Medium",
+    "explanation": "Sirimavo Bandaranaike became Prime Minister of Sri Lanka (Ceylon) in 1960."
+  },
+  {
+    "id": "a_med_056",
+    "text": "In which year was the Reserve Bank of India (RBI) established?",
+    "options": [
+      "1935",
+      "1947",
+      "1950",
+      "1955"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "1935",
+    "category": "Indian Polity",
+    "difficulty": "Medium",
+    "explanation": "RBI was set up on April 1, 1935 under the Reserve Bank of India Act, 1934."
+  },
+  {
+    "id": "a_med_057",
+    "text": "What is the chemical formula for ozone?",
+    "options": [
+      "O₂",
+      "O₃",
+      "O₄",
+      "CO₂"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "O₃",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "Ozone consists of three bound oxygen atoms (O₃)."
+  },
+  {
+    "id": "a_med_058",
+    "text": "Which is the deepest freshwater lake in the world?",
+    "options": [
+      "Lake Superior",
+      "Lake Baikal",
+      "Lake Victoria",
+      "Lake Tanganyika"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Lake Baikal",
+    "category": "World Geography",
+    "difficulty": "Medium",
+    "explanation": "Lake Baikal in Siberia plunges to a maximum depth of 1,642 meters."
+  },
+  {
+    "id": "a_med_059",
+    "text": "What is the acceleration due to gravity on Earth's surface approximately?",
+    "options": [
+      "8.8 m/s²",
+      "9.8 m/s²",
+      "10.8 m/s²",
+      "12.0 m/s²"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "9.8 m/s²",
+    "category": "Science & Tech",
+    "difficulty": "Medium",
+    "explanation": "Standard gravity 'g' is approximately 9.80665 m/s²."
+  },
+  {
+    "id": "a_med_060",
+    "text": "What is the tenure of the Chief Election Commissioner of India?",
+    "options": [
+      "5 years or age 60",
+      "6 years or age 65",
+      "4 years or age 62",
+      "5 years or age 65"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "6 years or age 65",
+    "category": "Indian Polity",
+    "difficulty": "Medium",
+    "explanation": "The CEC holds office for 6 years or until reaching 65 years of age."
+  },
+  {
+    "id": "a_hard_001",
+    "text": "Two dice are rolled simultaneously. What is the probability that the sum of the numbers is 7?",
+    "options": [
+      "1/12",
+      "1/6",
+      "5/36",
+      "7/36"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "1/6",
+    "category": "Algebra & Logic",
+    "difficulty": "Hard",
+    "explanation": "Favorable outcomes are (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6. 6/36 = 1/6."
+  },
+  {
+    "id": "a_hard_002",
+    "text": "If x + 1/x = 4, what is the value of x² + 1/x²?",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "14",
+    "category": "Algebra & Logic",
+    "difficulty": "Hard",
+    "explanation": "(x + 1/x)² = x² + 2 + 1/x² = 16. Therefore, x² + 1/x² = 16 - 2 = 14."
+  },
+  {
+    "id": "a_hard_003",
+    "text": "A sum of money doubles itself in 8 years at simple interest. What is the annual rate of interest?",
+    "options": [
+      "10%",
+      "12.5%",
+      "15%",
+      "16.6%"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "12.5%",
+    "category": "Quantitative Math",
+    "difficulty": "Hard",
+    "explanation": "Simple Interest = Principal. Rate = (100 x P) / (P x 8) = 100/8 = 12.5%."
+  },
+  {
+    "id": "a_hard_004",
+    "text": "How many different arrangements can be made using all the letters of the word 'LEADER'?",
+    "options": [
+      "360",
+      "720",
+      "180",
+      "120"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "360",
+    "category": "Algebra & Logic",
+    "difficulty": "Hard",
+    "explanation": "6 letters with 'E' repeating twice: 6! / 2! = 720 / 2 = 360."
+  },
+  {
+    "id": "a_hard_005",
+    "text": "A pipe can fill a tank in 6 hours, while a drain can empty it in 8 hours. Working together, how long will it take to fill the tank?",
+    "options": [
+      "18 hours",
+      "20 hours",
+      "24 hours",
+      "28 hours"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "24 hours",
+    "category": "Quantitative Math",
+    "difficulty": "Hard",
+    "explanation": "Net rate = 1/6 - 1/8 = (4 - 3)/24 = 1/24 per hour. Time = 24 hours."
+  },
+  {
+    "id": "a_hard_006",
+    "text": "What is the remainder when 2⁵⁰ is divided by 7?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "4",
+    "category": "Algebra & Logic",
+    "difficulty": "Hard",
+    "explanation": "2³ = 8 ≡ 1 (mod 7). 50 = 3 x 16 + 2. (2³)¹⁶ x 2² ≡ 1 x 4 = 4."
+  },
+  {
+    "id": "a_hard_007",
+    "text": "If the roots of the quadratic equation ax² + bx + c = 0 are real and equal, what is the value of the discriminant?",
+    "options": [
+      "b² - 4ac > 0",
+      "b² - 4ac = 0",
+      "b² - 4ac < 0",
+      "b² = 2ac"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "b² - 4ac = 0",
+    "category": "Algebra & Logic",
+    "difficulty": "Hard",
+    "explanation": "A discriminant equal to 0 produces exactly two identical real roots."
+  },
+  {
+    "id": "a_hard_008",
+    "text": "In a group of 50 people, 30 like tea, 25 like coffee, and 10 like both. How many like neither?",
+    "options": [
+      "3",
+      "5",
+      "8",
+      "10"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "5",
+    "category": "Algebra & Logic",
+    "difficulty": "Hard",
+    "explanation": "Union = 30 + 25 - 10 = 45. Neither = 50 - 45 = 5."
+  },
+  {
+    "id": "a_hard_009",
+    "text": "The 'Basic Structure Doctrine' of the Indian Constitution was established in which landmark Supreme Court case?",
+    "options": [
+      "Golaknath (1967)",
+      "Kesavananda Bharati (1973)",
+      "Minerva Mills (1980)",
+      "Maneka Gandhi (1978)"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Kesavananda Bharati (1973)",
+    "category": "Indian Polity",
+    "difficulty": "Hard",
+    "explanation": "The 13-judge bench in Kesavananda Bharati ruled that Parliament cannot alter the basic structure."
+  },
+  {
+    "id": "a_hard_010",
+    "text": "Under which Article of the Constitution can Parliament amend the Constitution?",
+    "options": [
+      "Article 356",
+      "Article 368",
+      "Article 370",
+      "Article 371"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Article 368",
+    "category": "Indian Polity",
+    "difficulty": "Hard",
+    "explanation": "Article 368 governs the power and constituent procedure of Parliament to amend."
+  },
+  {
+    "id": "a_hard_011",
+    "text": "Which constitutional amendment deleted the Right to Property from the list of Fundamental Rights?",
+    "options": [
+      "42nd Amendment (1976)",
+      "44th Amendment (1978)",
+      "52nd Amendment (1985)",
+      "73rd Amendment (1992)"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "44th Amendment (1978)",
+    "category": "Indian Polity",
+    "difficulty": "Hard",
+    "explanation": "The 44th Amendment Act made property a legal right under Article 300A."
+  },
+  {
+    "id": "a_hard_012",
+    "text": "Which committee recommended the establishment of the Panchayati Raj system in India with a 3-tier model?",
+    "options": [
+      "Sarkaria Commission",
+      "Balwant Rai Mehta Committee",
+      "Verma Committee",
+      "Kothari Commission"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Balwant Rai Mehta Committee",
+    "category": "Indian Polity",
+    "difficulty": "Hard",
+    "explanation": "The 1957 Balwant Rai Mehta committee proposed Gram, Block, and District tiers."
+  },
+  {
+    "id": "a_hard_013",
+    "text": "The Directive Principles of State Policy in the Indian Constitution were borrowed from which country's constitution?",
+    "options": [
+      "United States",
+      "Irish Free State (Ireland)",
+      "Soviet Union",
+      "Australia"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Irish Free State (Ireland)",
+    "category": "Indian Polity",
+    "difficulty": "Hard",
+    "explanation": "India's DPSPs (Part IV) were inspired by Ireland's 1937 Constitution."
+  },
+  {
+    "id": "a_hard_014",
+    "text": "What is the quorum required to constitute a meeting of either House of the Indian Parliament?",
+    "options": [
+      "1/5th of total members",
+      "1/10th of total members",
+      "1/8th of total members",
+      "1/6th of total members"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "1/10th of total members",
+    "category": "Indian Polity",
+    "difficulty": "Hard",
+    "explanation": "Article 100(3) sets quorum at 10% (one-tenth) of total membership."
+  },
+  {
+    "id": "a_hard_015",
+    "text": "Who was the British Governor-General who abolished the practice of Sati in India in 1829?",
+    "options": [
+      "Lord Wellesley",
+      "Lord William Bentinck",
+      "Lord Cornwallis",
+      "Lord Canning"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Lord William Bentinck",
+    "category": "Indian History",
+    "difficulty": "Hard",
+    "explanation": "Lord William Bentinck enacted Regulation XVII with advocacy from Raja Ram Mohan Roy."
+  },
+  {
+    "id": "a_hard_016",
+    "text": "The famous Lucknow Pact of 1916 was an agreement between which two organizations?",
+    "options": [
+      "Congress and Muslim League",
+      "Moderates and Extremists",
+      "Congress and British Viceroy",
+      "Ghadar Party and Congress"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Congress and Muslim League",
+    "category": "Indian History",
+    "difficulty": "Hard",
+    "explanation": "It established joint nationalist demands between the Indian National Congress and the Muslim League."
+  },
+  {
+    "id": "a_hard_017",
+    "text": "Who organized the 'Hindustan Socialist Republican Association' (HSRA) in 1928 at Feroz Shah Kotla?",
+    "options": [
+      "Chandrashekhar Azad & Bhagat Singh",
+      "Subhash Chandra Bose",
+      "Lala Lajpat Rai",
+      "V.D. Savarkar"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Chandrashekhar Azad & Bhagat Singh",
+    "category": "Indian History",
+    "difficulty": "Hard",
+    "explanation": "Azad, Bhagat Singh, and comrades reorganized the HRA into the HSRA."
+  },
+  {
+    "id": "a_hard_018",
+    "text": "Who was the court poet of King Harshavardhana and author of the 'Harshacharita'?",
+    "options": [
+      "Kalidasa",
+      "Banabhatta",
+      "Bhavabhuti",
+      "Harisena"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Banabhatta",
+    "category": "Indian History",
+    "difficulty": "Hard",
+    "explanation": "Banabhatta composed both Harshacharita and Kadambari in 7th century Sanskrit."
+  },
+  {
+    "id": "a_hard_019",
+    "text": "The Indus Valley Civilization site 'Lothal', famous for its ancient tidal dockyard, is situated in which state?",
+    "options": [
+      "Rajasthan",
+      "Gujarat",
+      "Haryana",
+      "Punjab"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Gujarat",
+    "category": "Indian History",
+    "difficulty": "Hard",
+    "explanation": "Lothal was a prominent port and bead-making center in modern Gujarat."
+  },
+  {
+    "id": "a_hard_020",
+    "text": "The historic 1648 'Peace of Westphalia' is credited with establishing which major geopolitical concept?",
+    "options": [
+      "Universal Human Rights",
+      "Sovereign Nation-States",
+      "Free Trade Zones",
+      "Nuclear Non-Proliferation"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Sovereign Nation-States",
+    "category": "World History",
+    "difficulty": "Hard",
+    "explanation": "Westphalian sovereignty recognized independent state borders and domestic authority."
+  },
+  {
+    "id": "a_hard_021",
+    "text": "The Meiji Restoration of 1868 occurred in which nation, leading to rapid modernization?",
+    "options": [
+      "China",
+      "Japan",
+      "Korea",
+      "Thailand"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Japan",
+    "category": "World History",
+    "difficulty": "Hard",
+    "explanation": "The Meiji era returned imperial rule and transformed Japan into an industrial power."
+  },
+  {
+    "id": "a_hard_022",
+    "text": "Which battle in 1815 marked the definitive military defeat of Napoleon Bonaparte?",
+    "options": [
+      "Battle of Austerlitz",
+      "Battle of Waterloo",
+      "Battle of Leipzig",
+      "Battle of Trafalgar"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Battle of Waterloo",
+    "category": "World History",
+    "difficulty": "Hard",
+    "explanation": "The Duke of Wellington and Blücher defeated Napoleon near Waterloo, Belgium."
+  },
+  {
+    "id": "a_hard_023",
+    "text": "The Bretton Woods Conference of 1944 established which two major global institutions?",
+    "options": [
+      "UN and WHO",
+      "IMF and World Bank (IBRD)",
+      "WTO and OECD",
+      "NATO and Warsaw Pact"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "IMF and World Bank (IBRD)",
+    "category": "World History",
+    "difficulty": "Hard",
+    "explanation": "Bretton Woods created the modern post-war international monetary order."
+  },
+  {
+    "id": "a_hard_024",
+    "text": "What fundamental quantum principle states that you cannot simultaneously measure position and momentum with arbitrary precision?",
+    "options": [
+      "Pauli Exclusion Principle",
+      "Heisenberg Uncertainty Principle",
+      "Schrödinger Equation",
+      "Fermi-Dirac Statistic"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Heisenberg Uncertainty Principle",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "Δx · Δp ≥ ℏ/2 establishes the intrinsic limit of quantum measurement."
+  },
+  {
+    "id": "a_hard_025",
+    "text": "What does 'CRISPR-Cas9' technology primarily enable in biomedical science?",
+    "options": [
+      "Stem cell cloning",
+      "Targeted Gene Editing",
+      "Protein crystallization",
+      "MRI brain imaging"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Targeted Gene Editing",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "CRISPR-Cas9 provides RNA-guided molecular scissors to modify DNA sequences precisely."
+  },
+  {
+    "id": "a_hard_026",
+    "text": "What is the basic unit of information in a quantum computer?",
+    "options": [
+      "Bit",
+      "Qubit",
+      "Byte",
+      "Trubit"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Qubit",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "A qubit exploits quantum superposition to represent 0, 1, or both simultaneously."
+  },
+  {
+    "id": "a_hard_027",
+    "text": "Who is widely regarded as the 'Father of Artificial Intelligence' after organizing the 1956 Dartmouth workshop?",
+    "options": [
+      "Alan Turing",
+      "John McCarthy",
+      "Marvin Minsky",
+      "Claude Shannon"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "John McCarthy",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "John McCarthy coined 'Artificial Intelligence' and developed the Lisp language."
+  },
+  {
+    "id": "a_hard_028",
+    "text": "Which Nobel laureate deduced the double-helix structure of DNA alongside James Watson in 1953?",
+    "options": [
+      "Francis Crick",
+      "Linus Pauling",
+      "Maurice Wilkins",
+      "Erwin Chargaff"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Francis Crick",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "Watson and Crick published the DNA structure relying on Rosalind Franklin's Photo 51."
+  },
+  {
+    "id": "a_hard_029",
+    "text": "What is the term for the boundary around a black hole beyond which nothing, not even light, can escape?",
+    "options": [
+      "Ergosphere",
+      "Event Horizon",
+      "Photon Sphere",
+      "Accretion Disk"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Event Horizon",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "The event horizon marks the gravitational point of no return."
+  },
+  {
+    "id": "a_hard_030",
+    "text": "In cryptography, what mathematical foundation underpins the widely used RSA encryption algorithm?",
+    "options": [
+      "Discrete Logarithms",
+      "Difficulty of factoring large prime products",
+      "Elliptic Curve isogenies",
+      "Lattice reduction"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Difficulty of factoring large prime products",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "RSA relies on the practical difficulty of factoring large semiprime integers."
+  },
+  {
+    "id": "a_hard_031",
+    "text": "Which African lake is the source of the White Nile?",
+    "options": [
+      "Lake Tanganyika",
+      "Lake Victoria",
+      "Lake Malawi",
+      "Lake Chad"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Lake Victoria",
+    "category": "World Geography",
+    "difficulty": "Hard",
+    "explanation": "Lake Victoria is Africa's largest tropical lake and prime source of the White Nile."
+  },
+  {
+    "id": "a_hard_032",
+    "text": "The 'Ring of Fire' is a horseshoe-shaped basin in which ocean renowned for earthquakes and active volcanoes?",
+    "options": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Pacific Ocean",
+      "Arctic Ocean"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "Pacific Ocean",
+    "category": "World Geography",
+    "difficulty": "Hard",
+    "explanation": "The Pacific Ring of Fire contains over 75% of the world's active and dormant volcanoes."
+  },
+  {
+    "id": "a_hard_033",
+    "text": "Which country has the longest coastline in the world?",
+    "options": [
+      "Russia",
+      "Canada",
+      "Norway",
+      "Australia"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Canada",
+    "category": "World Geography",
+    "difficulty": "Hard",
+    "explanation": "Canada's sprawling archipelago yields over 202,080 km of coastline."
+  },
+  {
+    "id": "a_hard_034",
+    "text": "What geological process occurs when an oceanic tectonic plate dives underneath a continental plate?",
+    "options": [
+      "Rifting",
+      "Subduction",
+      "Transform faulting",
+      "Accretion only"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Subduction",
+    "category": "World Geography",
+    "difficulty": "Hard",
+    "explanation": "Subduction zones create deep ocean trenches and volcanic arcs."
+  },
+  {
+    "id": "a_hard_035",
+    "text": "The 'Danakil Depression', one of the hottest and lowest geological places on Earth, is located in which country?",
+    "options": [
+      "Chad",
+      "Ethiopia",
+      "Algeria",
+      "Namibia"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Ethiopia",
+    "category": "World Geography",
+    "difficulty": "Hard",
+    "explanation": "Located in the Afar Triangle of Ethiopia, it sits over 100 meters below sea level."
+  },
+  {
+    "id": "a_hard_036",
+    "text": "What does the 'Gini Coefficient' measure in economic analysis?",
+    "options": [
+      "Inflation rate",
+      "Income or wealth inequality",
+      "Trade deficit",
+      "Currency devaluation"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Income or wealth inequality",
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "explanation": "A Gini index of 0 represents complete equality; 1 represents maximal inequality."
+  },
+  {
+    "id": "a_hard_037",
+    "text": "What is the phenomenon where high inflation occurs simultaneously with stagnant economic growth and high unemployment?",
+    "options": [
+      "Deflation",
+      "Stagflation",
+      "Hyperinflation",
+      "Recessionary boom"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Stagflation",
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "explanation": "Stagflation famously afflicted Western economies during the 1970s oil shocks."
+  },
+  {
+    "id": "a_hard_038",
+    "text": "Which sovereign wealth fund is currently the largest in the world by assets under management?",
+    "options": [
+      "Abu Dhabi Investment Authority",
+      "Government Pension Fund of Norway",
+      "China Investment Corporation",
+      "PIF of Saudi Arabia"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Government Pension Fund of Norway",
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "explanation": "Norway's Oil Fund manages over $1.5 trillion in global assets."
+  },
+  {
+    "id": "a_hard_039",
+    "text": "Which economist advocated government intervention and deficit spending to mitigate recessions in 1936?",
+    "options": [
+      "Friedrich Hayek",
+      "John Maynard Keynes",
+      "Milton Friedman",
+      "David Ricardo"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "John Maynard Keynes",
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "explanation": "Keynesian economics was detailed in 'The General Theory of Employment, Interest and Money'."
+  },
+  {
+    "id": "a_hard_040",
+    "text": "In financial markets, what does the 'Sharpe Ratio' measure?",
+    "options": [
+      "Stock liquidity",
+      "Risk-adjusted return of an investment",
+      "Dividend yield growth",
+      "Market beta sensitivity"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Risk-adjusted return of an investment",
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "explanation": "Sharpe ratio compares portfolio excess return above the risk-free rate to standard deviation."
+  },
+  {
+    "id": "a_hard_041",
+    "text": "If f(x) = 3x² - 4x + 7, what is the derivative f'(x) evaluated at x = 2?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "8",
+    "category": "Algebra & Logic",
+    "difficulty": "Hard",
+    "explanation": "f'(x) = 6x - 4. At x = 2: 6(2) - 4 = 12 - 4 = 8."
+  },
+  {
+    "id": "a_hard_042",
+    "text": "What is the determinant of a 2x2 matrix [[3, 5], [2, 4]]?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "2",
+    "category": "Algebra & Logic",
+    "difficulty": "Hard",
+    "explanation": "ad - bc = (3 x 4) - (5 x 2) = 12 - 10 = 2."
+  },
+  {
+    "id": "a_hard_043",
+    "text": "What is the value of 3⁴ x 2³?",
+    "options": [
+      "324",
+      "486",
+      "648",
+      "720"
+    ],
+    "correctIndex": 2,
+    "correctAnswer": "648",
+    "category": "Quantitative Math",
+    "difficulty": "Hard",
+    "explanation": "3⁴ = 81; 2³ = 8; 81 x 8 = 648."
+  },
+  {
+    "id": "a_hard_044",
+    "text": "Which Indian scientist won the Nobel Prize in Physics in 1930 for light scattering?",
+    "options": [
+      "Homi Bhabha",
+      "C.V. Raman",
+      "S. Chandrasekhar",
+      "Jagadish Chandra Bose"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "C.V. Raman",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "Sir C.V. Raman discovered the Raman Effect on February 28, 1928."
+  },
+  {
+    "id": "a_hard_045",
+    "text": "In which year was the first Earth Day celebrated globally?",
+    "options": [
+      "1965",
+      "1970",
+      "1975",
+      "1980"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "1970",
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "explanation": "Gaylord Nelson organized the first Earth Day on April 22, 1970."
+  },
+  {
+    "id": "a_hard_046",
+    "text": "What is the speed of sound in dry air at 20°C approximately?",
+    "options": [
+      "250 m/s",
+      "343 m/s",
+      "420 m/s",
+      "512 m/s"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "343 m/s",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "Sound travels at approximately 343 meters per second in 20°C air."
+  },
+  {
+    "id": "a_hard_047",
+    "text": "Which treaty signed in 1992 formally created the European Union and paved the way for the Euro?",
+    "options": [
+      "Treaty of Rome",
+      "Maastricht Treaty",
+      "Lisbon Treaty",
+      "Treaty of Nice"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Maastricht Treaty",
+    "category": "World History",
+    "difficulty": "Hard",
+    "explanation": "The Maastricht Treaty established the European Union under three pillars."
+  },
+  {
+    "id": "a_hard_048",
+    "text": "What is the currency of Switzerland?",
+    "options": [
+      "Euro",
+      "Swiss Franc",
+      "Krona",
+      "Mark"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Swiss Franc",
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "explanation": "Switzerland uses the Swiss Franc (CHF)."
+  },
+  {
+    "id": "a_hard_049",
+    "text": "Which Indian state has the highest population according to the official census?",
+    "options": [
+      "Maharashtra",
+      "Uttar Pradesh",
+      "Bihar",
+      "West Bengal"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Uttar Pradesh",
+    "category": "Indian Geography",
+    "difficulty": "Hard",
+    "explanation": "Uttar Pradesh is India's most populous state with over 200 million residents."
+  },
+  {
+    "id": "a_hard_050",
+    "text": "What is the name of the nearest major spiral galaxy to the Milky Way?",
+    "options": [
+      "Triangulum",
+      "Andromeda (M31)",
+      "Large Magellanic Cloud",
+      "Centaurus A"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Andromeda (M31)",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "Andromeda is located roughly 2.5 million light-years away."
+  },
+  {
+    "id": "a_hard_051",
+    "text": "What does 'API' stand for in software engineering?",
+    "options": [
+      "Application Programming Interface",
+      "Advanced Program Instruction",
+      "Automated Process Integrator",
+      "App Protocol Infrastructure"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Application Programming Interface",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "An API specifies how software components interact and exchange data."
+  },
+  {
+    "id": "a_hard_052",
+    "text": "Which gas makes up the majority of Venus's thick atmosphere?",
+    "options": [
+      "Methane",
+      "Carbon Dioxide",
+      "Sulfuric acid gas",
+      "Nitrogen"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Carbon Dioxide",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "Venus's atmosphere is over 96% CO₂, creating extreme runaway greenhouse heat."
+  },
+  {
+    "id": "a_hard_053",
+    "text": "Who was the founder of the Indian National Congress in 1885?",
+    "options": [
+      "Dadabhai Naoroji",
+      "Allan Octavian Hume",
+      "W.C. Bonnerjee",
+      "Dinshaw Wacha"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Allan Octavian Hume",
+    "category": "Indian History",
+    "difficulty": "Hard",
+    "explanation": "A.O. Hume, a retired British civil servant, catalyzed the founding of the INC in Bombay."
+  },
+  {
+    "id": "a_hard_054",
+    "text": "What is the SI unit of magnetic flux density?",
+    "options": [
+      "Weber",
+      "Tesla",
+      "Henry",
+      "Gauss"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Tesla",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "The Tesla (T) is the SI unit for magnetic B-field intensity (1 T = 1 Wb/m²)."
+  },
+  {
+    "id": "a_hard_055",
+    "text": "Which gland in the human endocrine system is termed the 'Master Gland'?",
+    "options": [
+      "Thyroid",
+      "Pituitary Gland",
+      "Adrenal Gland",
+      "Hypothalamus"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Pituitary Gland",
+    "category": "Science & Tech",
+    "difficulty": "Hard",
+    "explanation": "The pituitary gland regulates multiple other hormone-secreting endocrine organs."
+  },
+  {
+    "id": "a_hard_056",
+    "text": "What is the term for a word, phrase, or sequence that reads the same backward as forward?",
+    "options": [
+      "Anagram",
+      "Palindrome",
+      "Acronym",
+      "Pangram"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Palindrome",
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "explanation": "A palindrome reads identical forwards and backwards (e.g., 'radar', 'madam')."
+  },
+  {
+    "id": "a_hard_057",
+    "text": "Which is the largest desert in the world by total surface area (including polar deserts)?",
+    "options": [
+      "Sahara Desert",
+      "Antarctic Polar Desert",
+      "Arctic Desert",
+      "Gobi Desert"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "Antarctic Polar Desert",
+    "category": "World Geography",
+    "difficulty": "Hard",
+    "explanation": "Antarctica is technically a desert due to low precipitation, spanning 14.2M km²."
+  },
+  {
+    "id": "a_hard_058",
+    "text": "Who was the first Indian citizen to win the prestigious Booker Prize in literature?",
+    "options": [
+      "Arundhati Roy",
+      "Salman Rushdie",
+      "Kiran Desai",
+      "Aravind Adiga"
+    ],
+    "correctIndex": 0,
+    "correctAnswer": "Arundhati Roy",
+    "category": "General Knowledge",
+    "difficulty": "Hard",
+    "explanation": "Arundhati Roy won in 1997 for 'The God of Small Things'."
+  },
+  {
+    "id": "a_hard_059",
+    "text": "Which constitutional amendment reduced the voting age in India from 21 to 18 years?",
+    "options": [
+      "42nd Amendment",
+      "61st Amendment",
+      "73rd Amendment",
+      "86th Amendment"
+    ],
+    "correctIndex": 1,
+    "correctAnswer": "61st Amendment",
+    "category": "Indian Polity",
+    "difficulty": "Hard",
+    "explanation": "The 61st Constitutional Amendment Act of 1988 enacted the lower voting age."
+  }
+]

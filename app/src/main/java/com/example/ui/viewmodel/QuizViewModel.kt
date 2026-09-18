@@ -6,6 +6,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.data.local.QuizPreferences
 import com.example.data.model.Achievement
+import com.example.data.model.CompletedGameHistory
 import com.example.data.model.Difficulty
 import com.example.data.model.QuizMode
 import com.example.data.model.QuizQuestionState
@@ -33,6 +34,7 @@ enum class AppScreen {
     REVIEW,
     STATISTICS,
     ACHIEVEMENTS,
+    HISTORY,
     SETTINGS
 }
 
@@ -54,6 +56,7 @@ data class QuizUiState(
     val lastResult: QuizResult? = null,
     val stats: UserStats = UserStats(),
     val achievements: List<Achievement> = emptyList(),
+    val recentGames: List<CompletedGameHistory> = emptyList(),
     val isSoundEnabled: Boolean = true,
     val isVibrationEnabled: Boolean = true,
     val themeSetting: String = "SYSTEM",
@@ -79,6 +82,7 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
             isAdMobTestMode = preferences.isAdMobTestMode,
             stats = preferences.getUserStats(),
             achievements = preferences.getAchievements(),
+            recentGames = preferences.getRecentGames(5),
             totalKidsQuestions = repository.getTotalQuestionCount(QuizMode.KIDS),
             totalAdultsQuestions = repository.getTotalQuestionCount(QuizMode.ADULTS)
         )
@@ -108,7 +112,8 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
             it.copy(
                 currentScreen = screen,
                 stats = preferences.getUserStats(),
-                achievements = preferences.getAchievements()
+                achievements = preferences.getAchievements(),
+                recentGames = preferences.getRecentGames(5)
             )
         }
     }
@@ -169,6 +174,8 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
+    fun startQuestionTimer() = startTimer()
+
     fun pauseQuiz() {
         audioFeedback.playClick()
         timerJob?.cancel()
@@ -181,9 +188,33 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
         startTimer()
     }
 
-    private fun pauseTimer() {
+    fun pauseTimer() {
         timerJob?.cancel()
     }
+
+    fun resumeTimer() {
+        resumeQuiz()
+    }
+
+    fun reduceLife() {
+        val currentLives = _uiState.value.livesRemaining
+        val newLives = (currentLives - 1).coerceAtLeast(0)
+        _uiState.update {
+            it.copy(
+                livesRemaining = newLives,
+                currentStreak = 0
+            )
+        }
+        if (newLives <= 0) {
+            if (!_uiState.value.hasUsedRevivalAd) {
+                _uiState.update { it.copy(showRevivalDialog = true) }
+            } else {
+                finishQuiz(isVictory = false)
+            }
+        }
+    }
+
+    fun submitAnswer(optionIndex: Int) = selectAnswer(optionIndex)
 
     fun selectAnswer(optionIndex: Int) {
         val state = _uiState.value
@@ -344,6 +375,7 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
 
         val accuracy = if (total > 0) (correctCount.toFloat() / total) * 100f else 0f
         val xpEarned = (state.currentScore / 2) + (if (isVictory) 100 else 25)
+        val fastAnswersCount = state.questions.count { it.isCorrect && it.timeSpentSeconds <= 15 }
 
         val todayDate = SimpleDateFormat("yyyyMMdd", Locale.US).format(Date())
         val isHighscore = preferences.recordQuizCompletion(
@@ -354,7 +386,8 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
             totalQuestions = total,
             streak = state.maxStreak,
             xpEarned = xpEarned,
-            todayDateStr = todayDate
+            todayDateStr = todayDate,
+            fastAnswersInQuiz = fastAnswersCount
         )
 
         if (isVictory) {
@@ -382,14 +415,37 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
             questionStates = state.questions
         )
 
+        val formattedDate = SimpleDateFormat("MMM d, yyyy • h:mm a", Locale.getDefault()).format(Date())
+        val completedGame = CompletedGameHistory(
+            mode = state.activeMode,
+            difficulty = state.currentDifficulty,
+            score = state.currentScore,
+            correctCount = correctCount,
+            totalQuestions = total,
+            accuracy = accuracy,
+            maxStreak = state.maxStreak,
+            xpEarned = xpEarned,
+            isVictory = isVictory,
+            timestamp = System.currentTimeMillis(),
+            dateFormatted = formattedDate
+        )
+        preferences.recordCompletedGame(completedGame)
+
         _uiState.update {
             it.copy(
                 currentScreen = AppScreen.RESULTS,
                 lastResult = result,
                 stats = preferences.getUserStats(),
-                achievements = preferences.getAchievements()
+                achievements = preferences.getAchievements(),
+                recentGames = preferences.getRecentGames(5)
             )
         }
+    }
+
+    fun clearHistory() {
+        audioFeedback.playClick()
+        preferences.clearQuizHistory()
+        _uiState.update { it.copy(recentGames = emptyList()) }
     }
 
     fun showCompletionInterstitial(activity: Activity, onDone: () -> Unit = {}) {

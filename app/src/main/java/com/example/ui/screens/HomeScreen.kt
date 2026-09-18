@@ -20,6 +20,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.EmojiEvents
+import androidx.compose.material.icons.filled.History
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.QueryStats
 import androidx.compose.material.icons.filled.Settings
@@ -47,6 +48,7 @@ import androidx.compose.ui.unit.sp
 import com.example.R
 import com.example.data.model.Difficulty
 import com.example.data.model.QuizMode
+import com.example.ui.components.AchievementBadgesSection
 import com.example.ui.components.AdMobBanner
 import com.example.ui.components.DailyStreakCard
 import com.example.ui.viewmodel.AppScreen
@@ -169,6 +171,19 @@ fun HomeScreen(
                             Icon(
                                 imageVector = Icons.Default.EmojiEvents,
                                 contentDescription = "Achievements",
+                                tint = MaterialTheme.colorScheme.onSurface
+                            )
+                        }
+
+                        IconButton(
+                            onClick = { viewModel.navigateTo(AppScreen.HISTORY) },
+                            modifier = Modifier
+                                .size(36.dp)
+                                .testTag("history_icon_button")
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.History,
+                                contentDescription = "Quiz History",
                                 tint = MaterialTheme.colorScheme.onSurface
                             )
                         }
@@ -384,6 +399,15 @@ fun HomeScreen(
                 }
             }
 
+            // Badges & Milestones Showcase
+            item {
+                AchievementBadgesSection(
+                    achievements = uiState.achievements,
+                    onViewAllClick = { viewModel.navigateTo(AppScreen.ACHIEVEMENTS) },
+                    onStartQuizClick = { viewModel.startQuiz(Difficulty.MEDIUM) }
+                )
+            }
+
             // Section Header: Choose Difficulty
             item {
                 Text(
@@ -432,6 +456,77 @@ fun HomeScreen(
                     StatPill("Quizzes", "${uiState.stats.totalQuizzes}")
                     StatPill("Best Streak", "${uiState.stats.bestStreak} 🔥")
                     StatPill("Accuracy", "%.0f%%".format(uiState.stats.overallAccuracy))
+                }
+            }
+
+            // Quiz History Card (Access last 5 completed games)
+            item {
+                Card(
+                    shape = RoundedCornerShape(16.dp),
+                    colors = CardDefaults.cardColors(
+                        containerColor = MaterialTheme.colorScheme.surface
+                    ),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .border(
+                            1.dp,
+                            MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.4f),
+                            RoundedCornerShape(16.dp)
+                        )
+                        .clickable { viewModel.navigateTo(AppScreen.HISTORY) }
+                        .testTag("home_quiz_history_card")
+                ) {
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(horizontal = 14.dp, vertical = 12.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween
+                    ) {
+                        Row(
+                            verticalAlignment = Alignment.CenterVertically,
+                            horizontalArrangement = Arrangement.spacedBy(10.dp)
+                        ) {
+                            Box(
+                                modifier = Modifier
+                                    .size(36.dp)
+                                    .clip(CircleShape)
+                                    .background(Color(0xFF6366F1).copy(alpha = 0.15f)),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Icon(
+                                    imageVector = Icons.Default.History,
+                                    contentDescription = null,
+                                    tint = Color(0xFF6366F1),
+                                    modifier = Modifier.size(20.dp)
+                                )
+                            }
+                            Column {
+                                Text(
+                                    text = "Quiz History",
+                                    fontSize = 14.sp,
+                                    fontWeight = FontWeight.Bold,
+                                    color = MaterialTheme.colorScheme.onSurface
+                                )
+                                Text(
+                                    text = if (uiState.recentGames.isNotEmpty()) {
+                                        "${uiState.recentGames.size} of 5 recent games recorded"
+                                    } else {
+                                        "View your last 5 completed games & scores"
+                                    },
+                                    fontSize = 11.sp,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            }
+                        }
+
+                        Text(
+                            text = "View →",
+                            fontSize = 12.sp,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                    }
                 }
             }
 

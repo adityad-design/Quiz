@@ -20,6 +20,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.ui.screens.AchievementsScreen
 import com.example.ui.screens.HomeScreen
+import com.example.ui.screens.QuizHistoryScreen
 import com.example.ui.screens.QuizScreen
 import com.example.ui.screens.ResultsScreen
 import com.example.ui.screens.ReviewScreen
@@ -92,6 +93,11 @@ class MainActivity : ComponentActivity() {
                                 modifier = screenModifier
                             )
                             AppScreen.ACHIEVEMENTS -> AchievementsScreen(
+                                uiState = uiState,
+                                viewModel = quizViewModel,
+                                modifier = screenModifier
+                            )
+                            AppScreen.HISTORY -> QuizHistoryScreen(
                                 uiState = uiState,
                                 viewModel = quizViewModel,
                                 modifier = screenModifier

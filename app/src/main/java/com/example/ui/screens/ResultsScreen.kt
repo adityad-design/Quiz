@@ -22,6 +22,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.EmojiEvents
+import androidx.compose.material.icons.filled.History
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.ListAlt
 import androidx.compose.material.icons.filled.Replay
@@ -280,6 +281,28 @@ fun ResultsScreen(
                         Spacer(modifier = Modifier.size(8.dp))
                         Text(
                             text = "Review Answers (${result?.correctCount ?: 0}/${result?.totalQuestions ?: 10})",
+                            fontSize = 15.sp,
+                            fontWeight = FontWeight.SemiBold
+                        )
+                    }
+
+                    // View Quiz History Button
+                    OutlinedButton(
+                        onClick = { viewModel.navigateTo(AppScreen.HISTORY) },
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(48.dp)
+                            .testTag("results_view_history_button"),
+                        shape = RoundedCornerShape(14.dp)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.History,
+                            contentDescription = "Quiz History",
+                            modifier = Modifier.size(18.dp)
+                        )
+                        Spacer(modifier = Modifier.size(8.dp))
+                        Text(
+                            text = "View Quiz History",
                             fontSize = 15.sp,
                             fontWeight = FontWeight.SemiBold
                         )

@@ -74,7 +74,9 @@ data class UserStats(
     val lastDailyDate: String = "",
     val consecutiveDaysStreak: Int = 0,
     val lastPlayedDate: String = "",
-    val playedDates: Set<String> = emptySet()
+    val playedDates: Set<String> = emptySet(),
+    val fastAnswersCount: Int = 0,
+    val masterQuizzesCount: Int = 0
 ) {
     val overallAccuracy: Float
         get() = if (totalQuestionsAnswered > 0) {
@@ -93,8 +95,25 @@ data class Achievement(
     val targetValue: Int,
     val currentValue: Int,
     val isUnlocked: Boolean,
-    val xpReward: Int
+    val xpReward: Int,
+    val category: String = "General"
 ) {
     val progress: Float
         get() = (currentValue.toFloat() / targetValue).coerceIn(0f, 1f)
 }
+
+data class CompletedGameHistory(
+    val id: String = java.util.UUID.randomUUID().toString(),
+    val mode: QuizMode,
+    val difficulty: Difficulty,
+    val score: Int,
+    val correctCount: Int,
+    val totalQuestions: Int,
+    val accuracy: Float,
+    val maxStreak: Int,
+    val xpEarned: Int,
+    val isVictory: Boolean,
+    val timestamp: Long = System.currentTimeMillis(),
+    val dateFormatted: String = ""
+)
+

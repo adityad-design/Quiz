@@ -3,6 +3,7 @@ package com.example.data.local
 import android.content.Context
 import android.content.SharedPreferences
 import com.example.data.model.Achievement
+import com.example.data.model.CompletedGameHistory
 import com.example.data.model.Difficulty
 import com.example.data.model.QuizMode
 import com.example.data.model.UserStats
@@ -94,6 +95,8 @@ class QuizPreferences(context: Context) {
         val adultsQuizzes = prefs.getInt("stats_adults_quizzes", 0)
         val dailyChallengeStreak = prefs.getInt("stats_daily_streak", 0)
         val lastDailyDate = prefs.getString("stats_last_daily_date", "") ?: ""
+        val fastAnswersCount = prefs.getInt("stats_fast_answers", 0)
+        val masterQuizzesCount = prefs.getInt("stats_master_quizzes", 0)
 
         val rawConsecutiveStreak = prefs.getInt("stats_consecutive_days_streak", 0)
         val lastPlayedDate = prefs.getString("stats_last_played_date", "") ?: ""
@@ -136,7 +139,9 @@ class QuizPreferences(context: Context) {
             lastDailyDate = lastDailyDate,
             consecutiveDaysStreak = consecutiveDaysStreak,
             lastPlayedDate = lastPlayedDate,
-            playedDates = playedDates
+            playedDates = playedDates,
+            fastAnswersCount = fastAnswersCount,
+            masterQuizzesCount = masterQuizzesCount
         )
     }
 
@@ -148,7 +153,8 @@ class QuizPreferences(context: Context) {
         totalQuestions: Int,
         streak: Int,
         xpEarned: Int,
-        todayDateStr: String
+        todayDateStr: String,
+        fastAnswersInQuiz: Int = 0
     ): Boolean {
         val currentStats = getUserStats(todayDateStr)
         val key = "${mode.name}_${difficulty.name}"
@@ -189,6 +195,10 @@ class QuizPreferences(context: Context) {
         val playedArr = org.json.JSONArray()
         updatedPlayedDates.sorted().takeLast(60).forEach { playedArr.put(it) }
 
+        val isMasterQuiz = totalQuestions > 0 && (correctCount.toFloat() / totalQuestions) >= 0.80f
+        val newMasterQuizzes = if (isMasterQuiz) currentStats.masterQuizzesCount + 1 else currentStats.masterQuizzesCount
+        val newFastAnswers = currentStats.fastAnswersCount + fastAnswersInQuiz
+
         prefs.edit()
             .putInt("stats_total_quizzes", currentStats.totalQuizzes + 1)
             .putInt("stats_total_questions", currentStats.totalQuestionsAnswered + totalQuestions)
@@ -205,6 +215,8 @@ class QuizPreferences(context: Context) {
             .putString("stats_last_played_date", todayDateStr)
             .putString("stats_played_dates", playedArr.toString())
             .putString("stats_best_scores", json.toString())
+            .putInt("stats_master_quizzes", newMasterQuizzes)
+            .putInt("stats_fast_answers", newFastAnswers)
             .apply()
 
         return isNewHighscore
@@ -238,7 +250,30 @@ class QuizPreferences(context: Context) {
                 targetValue = 1,
                 currentValue = stats.totalQuizzes,
                 isUnlocked = unlockedSet.contains("first_quiz") || stats.totalQuizzes >= 1,
-                xpReward = 100
+                xpReward = 100,
+                category = "Milestone"
+            ),
+            Achievement(
+                id = "quiz_master",
+                title = "Quiz Master",
+                description = "Complete 5 quizzes with 80%+ accuracy",
+                emoji = "🎓",
+                targetValue = 5,
+                currentValue = stats.masterQuizzesCount.coerceAtMost(5),
+                isUnlocked = unlockedSet.contains("quiz_master") || stats.masterQuizzesCount >= 5,
+                xpReward = 500,
+                category = "Mastery"
+            ),
+            Achievement(
+                id = "fast_learner",
+                title = "Fast Learner",
+                description = "Answer 10 questions correctly in under 15s each",
+                emoji = "⚡",
+                targetValue = 10,
+                currentValue = stats.fastAnswersCount.coerceAtMost(10),
+                isUnlocked = unlockedSet.contains("fast_learner") || stats.fastAnswersCount >= 10,
+                xpReward = 350,
+                category = "Speed"
             ),
             Achievement(
                 id = "perfectionist",
@@ -248,7 +283,8 @@ class QuizPreferences(context: Context) {
                 targetValue = 10,
                 currentValue = if (unlockedSet.contains("perfectionist")) 10 else 0,
                 isUnlocked = unlockedSet.contains("perfectionist"),
-                xpReward = 250
+                xpReward = 250,
+                category = "Mastery"
             ),
             Achievement(
                 id = "streak_master",
@@ -258,17 +294,19 @@ class QuizPreferences(context: Context) {
                 targetValue = 5,
                 currentValue = stats.bestStreak.coerceAtMost(5),
                 isUnlocked = unlockedSet.contains("streak_master") || stats.bestStreak >= 5,
-                xpReward = 200
+                xpReward = 200,
+                category = "Streak"
             ),
             Achievement(
                 id = "streak_legend",
                 title = "Unstoppable",
                 description = "Achieve a flawless 10 streak in a single quiz",
-                emoji = "⚡",
+                emoji = "💥",
                 targetValue = 10,
                 currentValue = stats.bestStreak.coerceAtMost(10),
                 isUnlocked = unlockedSet.contains("streak_legend") || stats.bestStreak >= 10,
-                xpReward = 500
+                xpReward = 500,
+                category = "Streak"
             ),
             Achievement(
                 id = "quiz_veteran",
@@ -278,7 +316,8 @@ class QuizPreferences(context: Context) {
                 targetValue = 10,
                 currentValue = stats.totalQuizzes.coerceAtMost(10),
                 isUnlocked = unlockedSet.contains("quiz_veteran") || stats.totalQuizzes >= 10,
-                xpReward = 300
+                xpReward = 300,
+                category = "Milestone"
             ),
             Achievement(
                 id = "century_answers",
@@ -288,7 +327,8 @@ class QuizPreferences(context: Context) {
                 targetValue = 100,
                 currentValue = stats.totalCorrect.coerceAtMost(100),
                 isUnlocked = unlockedSet.contains("century_answers") || stats.totalCorrect >= 100,
-                xpReward = 400
+                xpReward = 400,
+                category = "Milestone"
             ),
             Achievement(
                 id = "daily_champion",
@@ -298,7 +338,8 @@ class QuizPreferences(context: Context) {
                 targetValue = 3,
                 currentValue = stats.dailyChallengeStreak.coerceAtMost(3),
                 isUnlocked = unlockedSet.contains("daily_champion") || stats.dailyChallengeStreak >= 3,
-                xpReward = 350
+                xpReward = 350,
+                category = "Daily"
             ),
             Achievement(
                 id = "knowledge_master",
@@ -308,7 +349,8 @@ class QuizPreferences(context: Context) {
                 targetValue = 5000,
                 currentValue = stats.totalXp.coerceAtMost(5000),
                 isUnlocked = unlockedSet.contains("knowledge_master") || stats.totalXp >= 5000,
-                xpReward = 1000
+                xpReward = 1000,
+                category = "Mastery"
             )
         )
 
@@ -338,6 +380,77 @@ class QuizPreferences(context: Context) {
         val arr = org.json.JSONArray()
         unlockedSet.forEach { arr.put(it) }
         prefs.edit().putString("achievements_unlocked", arr.toString()).apply()
+    }
+
+    // Quiz History (Last 5 completed games using local storage)
+    fun recordCompletedGame(game: CompletedGameHistory) {
+        val existing = getRecentGames(limit = 50).toMutableList()
+        existing.add(0, game)
+        val trimmed = existing.take(20)
+
+        val arr = org.json.JSONArray()
+        for (item in trimmed) {
+            val obj = JSONObject()
+            obj.put("id", item.id)
+            obj.put("mode", item.mode.name)
+            obj.put("difficulty", item.difficulty.name)
+            obj.put("score", item.score)
+            obj.put("correctCount", item.correctCount)
+            obj.put("totalQuestions", item.totalQuestions)
+            obj.put("accuracy", item.accuracy.toDouble())
+            obj.put("maxStreak", item.maxStreak)
+            obj.put("xpEarned", item.xpEarned)
+            obj.put("isVictory", item.isVictory)
+            obj.put("timestamp", item.timestamp)
+            obj.put("dateFormatted", item.dateFormatted)
+            arr.put(obj)
+        }
+        prefs.edit().putString("quiz_completed_history", arr.toString()).apply()
+    }
+
+    fun getRecentGames(limit: Int = 5): List<CompletedGameHistory> {
+        val historyJson = prefs.getString("quiz_completed_history", "[]") ?: "[]"
+        val list = mutableListOf<CompletedGameHistory>()
+        try {
+            val arr = org.json.JSONArray(historyJson)
+            val count = minOf(arr.length(), limit)
+            for (i in 0 until count) {
+                val obj = arr.getJSONObject(i)
+                val mode = try {
+                    QuizMode.valueOf(obj.getString("mode"))
+                } catch (e: Exception) {
+                    QuizMode.KIDS
+                }
+                val difficulty = try {
+                    Difficulty.valueOf(obj.getString("difficulty"))
+                } catch (e: Exception) {
+                    Difficulty.EASY
+                }
+                list.add(
+                    CompletedGameHistory(
+                        id = obj.optString("id", java.util.UUID.randomUUID().toString()),
+                        mode = mode,
+                        difficulty = difficulty,
+                        score = obj.getInt("score"),
+                        correctCount = obj.getInt("correctCount"),
+                        totalQuestions = obj.getInt("totalQuestions"),
+                        accuracy = obj.getDouble("accuracy").toFloat(),
+                        maxStreak = obj.getInt("maxStreak"),
+                        xpEarned = obj.getInt("xpEarned"),
+                        isVictory = obj.optBoolean("isVictory", true),
+                        timestamp = obj.optLong("timestamp", System.currentTimeMillis()),
+                        dateFormatted = obj.optString("dateFormatted", "")
+                    )
+                )
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+        return list
+    }
+
+    fun clearQuizHistory() {
+        prefs.edit().remove("quiz_completed_history").apply()
     }
 
     fun resetAllData() {

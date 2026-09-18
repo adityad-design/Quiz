@@ -3,6 +3,7 @@ package com.example
 import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import com.example.data.local.QuizPreferences
+import com.example.data.model.CompletedGameHistory
 import com.example.data.model.Difficulty
 import com.example.data.model.QuizMode
 import com.example.data.repository.QuizRepository
@@ -206,4 +207,138 @@ class ExampleRobolectricTest {
 
         audioFeedback.release()
     }
+
+    @Test
+    fun `verify achievement system tracks milestones and unlocks Quiz Master and Fast Learner`() {
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        val prefs = QuizPreferences(context)
+        prefs.resetAllData()
+
+        val initialAchievements = prefs.getAchievements()
+        val quizMasterInitial = initialAchievements.find { it.id == "quiz_master" }
+        val fastLearnerInitial = initialAchievements.find { it.id == "fast_learner" }
+
+        assertNotNull("Quiz Master badge must exist", quizMasterInitial)
+        assertNotNull("Fast Learner badge must exist", fastLearnerInitial)
+        assertEquals("Quiz Master", quizMasterInitial?.title)
+        assertEquals("Fast Learner", fastLearnerInitial?.title)
+        assertFalse("Quiz Master should be locked initially", quizMasterInitial?.isUnlocked ?: true)
+        assertFalse("Fast Learner should be locked initially", fastLearnerInitial?.isUnlocked ?: true)
+        assertEquals(0, quizMasterInitial?.currentValue)
+        assertEquals(5, quizMasterInitial?.targetValue)
+        assertEquals(0, fastLearnerInitial?.currentValue)
+        assertEquals(10, fastLearnerInitial?.targetValue)
+
+        // Record 1st quiz with 6 fast answers and 8/10 correct (80% accuracy - qualifies as master quiz)
+        prefs.recordQuizCompletion(
+            mode = QuizMode.ADULTS,
+            difficulty = Difficulty.HARD,
+            score = 700,
+            correctCount = 8,
+            totalQuestions = 10,
+            streak = 4,
+            xpEarned = 350,
+            todayDateStr = "20260917",
+            fastAnswersInQuiz = 6
+        )
+
+        var currentAchievements = prefs.getAchievements()
+        var fastLearner = currentAchievements.first { it.id == "fast_learner" }
+        var quizMaster = currentAchievements.first { it.id == "quiz_master" }
+        assertEquals(6, fastLearner.currentValue)
+        assertFalse("Fast Learner not yet unlocked (6/10)", fastLearner.isUnlocked)
+        assertEquals(1, quizMaster.currentValue)
+        assertFalse("Quiz Master not yet unlocked (1/5)", quizMaster.isUnlocked)
+
+        // Record 2nd quiz with 5 fast answers (total fast answers = 11 >= 10 -> unlocks Fast Learner!)
+        prefs.recordQuizCompletion(
+            mode = QuizMode.ADULTS,
+            difficulty = Difficulty.MEDIUM,
+            score = 900,
+            correctCount = 9,
+            totalQuestions = 10,
+            streak = 6,
+            xpEarned = 450,
+            todayDateStr = "20260917",
+            fastAnswersInQuiz = 5
+        )
+
+        currentAchievements = prefs.getAchievements()
+        fastLearner = currentAchievements.first { it.id == "fast_learner" }
+        quizMaster = currentAchievements.first { it.id == "quiz_master" }
+        assertTrue("Fast Learner must be unlocked after 11 fast answers", fastLearner.isUnlocked)
+        assertEquals(10, fastLearner.currentValue) // Coerced to target
+        assertEquals(2, quizMaster.currentValue)
+
+        // Complete 3 more master quizzes (reaching 5 total) to unlock Quiz Master
+        for (i in 3..5) {
+            prefs.recordQuizCompletion(
+                mode = QuizMode.KIDS,
+                difficulty = Difficulty.EASY,
+                score = 800,
+                correctCount = 8,
+                totalQuestions = 10,
+                streak = 5,
+                xpEarned = 400,
+                todayDateStr = "20260917",
+                fastAnswersInQuiz = 2
+            )
+        }
+
+        currentAchievements = prefs.getAchievements()
+        quizMaster = currentAchievements.first { it.id == "quiz_master" }
+        assertTrue("Quiz Master must be unlocked after 5 master quizzes", quizMaster.isUnlocked)
+        assertEquals(5, quizMaster.currentValue)
+        assertEquals(500, quizMaster.xpReward)
+    }
+
+    @Test
+    fun `verify quiz history records and retrieves last 5 completed games using local storage`() {
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        val prefs = QuizPreferences(context)
+        prefs.clearQuizHistory()
+
+        // Initially empty
+        assertTrue("Initial history must be empty", prefs.getRecentGames(5).isEmpty())
+
+        // Record 7 completed games
+        for (i in 1..7) {
+            val game = CompletedGameHistory(
+                mode = if (i % 2 == 0) QuizMode.KIDS else QuizMode.ADULTS,
+                difficulty = Difficulty.MEDIUM,
+                score = i * 100,
+                correctCount = i,
+                totalQuestions = 10,
+                accuracy = i * 10f,
+                maxStreak = i,
+                xpEarned = i * 50,
+                isVictory = i >= 4,
+                timestamp = System.currentTimeMillis() + i * 1000,
+                dateFormatted = "Sep 17, 2026 • 0${i}:00 AM"
+            )
+            prefs.recordCompletedGame(game)
+        }
+
+        val recentGames = prefs.getRecentGames(limit = 5)
+        assertEquals("History must return exactly the last 5 games", 5, recentGames.size)
+
+        // The most recently recorded game (i=7) should be at index 0
+        val latest = recentGames[0]
+        assertEquals(700, latest.score)
+        assertEquals("Sep 17, 2026 • 07:00 AM", latest.dateFormatted)
+        assertEquals(QuizMode.ADULTS, latest.mode)
+        assertEquals(70f, latest.accuracy, 0.01f)
+        assertEquals(7, latest.maxStreak)
+        assertTrue(latest.isVictory)
+
+        // Game 6 should be at index 1
+        val second = recentGames[1]
+        assertEquals(600, second.score)
+        assertEquals(QuizMode.KIDS, second.mode)
+
+        // Clear history test
+        prefs.clearQuizHistory()
+        assertTrue("History must be empty after clearing", prefs.getRecentGames(5).isEmpty())
+    }
 }
+

@@ -2,6 +2,7 @@ package com.example.service
 
 import android.app.Activity
 import android.content.Context
+import android.content.ContextWrapper
 import android.util.Log
 import com.example.data.local.QuizPreferences
 import com.google.android.gms.ads.AdError
@@ -28,6 +29,7 @@ class AdMobManager(private val context: Context, private val preferences: QuizPr
     private var interstitialAd: InterstitialAd? = null
     private var rewardedAd: RewardedAd? = null
     private var isInitialized = false
+    private var isLoadingInterstitial = false
 
     val bannerAdUnitId: String
         get() = TEST_BANNER_ID
@@ -38,11 +40,14 @@ class AdMobManager(private val context: Context, private val preferences: QuizPr
     val rewardedAdUnitId: String
         get() = TEST_REWARDED_ID
 
+    val isInterstitialAdReady: Boolean
+        get() = interstitialAd != null
+
     fun initialize() {
         if (isInitialized) return
         try {
             MobileAds.initialize(context) { status ->
-                Log.d(TAG, "MobileAds initialized: $status")
+                Log.d(TAG, "Google Mobile Ads initialized: $status")
                 isInitialized = true
                 loadInterstitialAd()
                 loadRewardedAd()
@@ -52,7 +57,18 @@ class AdMobManager(private val context: Context, private val preferences: QuizPr
         }
     }
 
-    fun loadInterstitialAd() {
+    /**
+     * Preloads an interstitial ad ahead of time so it is ready when the quiz completes.
+     */
+    fun preloadInterstitialAd() {
+        if (interstitialAd == null && !isLoadingInterstitial) {
+            loadInterstitialAd()
+        }
+    }
+
+    fun loadInterstitialAd(onLoaded: (() -> Unit)? = null, onFailed: ((LoadAdError) -> Unit)? = null) {
+        if (isLoadingInterstitial) return
+        isLoadingInterstitial = true
         try {
             val adRequest = AdRequest.Builder().build()
             InterstitialAd.load(
@@ -62,31 +78,50 @@ class AdMobManager(private val context: Context, private val preferences: QuizPr
                 object : InterstitialAdLoadCallback() {
                     override fun onAdLoaded(ad: InterstitialAd) {
                         interstitialAd = ad
-                        Log.d(TAG, "Interstitial ad loaded successfully")
+                        isLoadingInterstitial = false
+                        Log.d(TAG, "Google Mobile Ads Interstitial ad loaded successfully")
+                        onLoaded?.invoke()
                     }
 
                     override fun onAdFailedToLoad(error: LoadAdError) {
                         interstitialAd = null
-                        Log.w(TAG, "Interstitial ad failed to load: ${error.message}")
+                        isLoadingInterstitial = false
+                        Log.w(TAG, "Google Mobile Ads Interstitial ad failed to load: ${error.message}")
+                        onFailed?.invoke(error)
                     }
                 }
             )
         } catch (e: Exception) {
+            isLoadingInterstitial = false
             Log.e(TAG, "Error loading interstitial ad", e)
         }
     }
 
+    /**
+     * Specifically displays an interstitial ad after the user completes a quiz session.
+     */
+    fun showCompletionInterstitial(activity: Activity, onDismissed: () -> Unit = {}) {
+        Log.d(TAG, "Displaying interstitial ad after quiz completion. Ready: $isInterstitialAdReady")
+        showInterstitial(activity, onDismissed)
+    }
+
     fun showInterstitial(activity: Activity, onDismissed: () -> Unit) {
         val ad = interstitialAd
-        if (ad != null) {
+        if (ad != null && !activity.isFinishing && !activity.isDestroyed) {
             ad.fullScreenContentCallback = object : FullScreenContentCallback() {
+                override fun onAdShowedFullScreenContent() {
+                    Log.d(TAG, "Interstitial ad showed full screen content")
+                }
+
                 override fun onAdDismissedFullScreenContent() {
+                    Log.d(TAG, "Interstitial ad dismissed by user")
                     interstitialAd = null
                     loadInterstitialAd()
                     onDismissed()
                 }
 
                 override fun onAdFailedToShowFullScreenContent(adError: AdError) {
+                    Log.w(TAG, "Interstitial ad failed to show: ${adError.message}")
                     interstitialAd = null
                     loadInterstitialAd()
                     onDismissed()
@@ -94,7 +129,8 @@ class AdMobManager(private val context: Context, private val preferences: QuizPr
             }
             ad.show(activity)
         } else {
-            // Not loaded or offline: proceed smoothly without interrupting user experience
+            // Not loaded or activity finishing: proceed smoothly without blocking the user
+            Log.d(TAG, "Interstitial ad not ready ($isInterstitialAdReady) or activity unavailable; bypassing smoothly")
             loadInterstitialAd()
             onDismissed()
         }
